@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-45E0C48441144D34BC01759FE248C08F">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-45E0C48441144D34BC01759FE248C08F" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:SiteFields>
+<Field Type="Lookup" DisplayName="Sanction Category" Required="FALSE" EnforceUniqueValues="FALSE" List="{{listid:Sanction Category}}" WebId="{siteid}" ShowField="Title" UnlimitedLengthInDocumentLibrary="FALSE" Group="Market Access" ID="{4a35807a-5f69-4c6a-bdbd-f31fa580e253}" SourceID="{{siteid}}" StaticName="MA_SanctionCategory" Name="MA_SanctionCategory" />
+	  </pnp:SiteFields>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

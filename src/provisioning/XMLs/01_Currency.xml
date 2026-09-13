@@ -1,0 +1,857 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-DEA7709D44814794A28E7E4751D2B089">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-DEA7709D44814794A28E7E4751D2B089" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x0100E7A7670CD623D24C92E64A3F120566E4" Name="MA_Currency" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="61a89b97-2d63-46ae-949e-d0087e6c2238" Name="MA_CurrencyIsoCode" UpdateChildren="true" />
+            <pnp:FieldRef ID="ee0b179e-2d9e-4283-82e3-245ebd775f0b" Name="MA_CurrencySymbol" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Currency" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/currency" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/currency/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/currency/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/currency/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100E7A7670CD623D24C92E64A3F120566E4" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{60993FC2-03FA-4676-B7B3-EC8EEA900FC0}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/currency/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_CurrencyIsoCode" />
+                <FieldRef Name="MA_CurrencySymbol" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="61a89b97-2d63-46ae-949e-d0087e6c2238" Name="MA_CurrencyIsoCode" DisplayName="Iso Code" />
+            <pnp:FieldRef ID="ee0b179e-2d9e-4283-82e3-245ebd775f0b" Name="MA_CurrencySymbol" DisplayName="Symbol" />
+          </pnp:FieldRefs>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Russian ruble </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₽ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">RUB </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Afghan afghani </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">AF </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">AFN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Euro </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">€ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">EUR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Albanian lek </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">L </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ALL </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Algerian dinar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">DA </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">DZD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Angolan kwanza </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Kz </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">AOA </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Eastern Caribbean dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">EC$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">XCD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Argentine peso </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ARS </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Armenian dram </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">֏ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">AMD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Aruban florin </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">ƒ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">AWG </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Saint Helena pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">£ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SHP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Australian dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">AUD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Azerbaijani manat </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₼ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">AZN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bahamian dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BSD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bahraini dinar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">BD </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BHD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bangladeshi taka </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">৳ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BDT </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Barbadian dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BBD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Belarusian ruble </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Br </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BYN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Belize dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BZD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">West African CFA franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">F.CFA </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">XOF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bermudian dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BMD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bhutanese ngultrum </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Nu </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BTN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Indian rupee </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₹ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">INR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bolivian boliviano </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Bs </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BOB </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">United States dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">USD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bosnia and Herzegovina convertible mark </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">KM </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BAM </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Botswana pula </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">P </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BWP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Brazilian real </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">R$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BRL </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Brunei dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BND </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Singapore dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SGD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bulgarian lev </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">lv. </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BGN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Burundian franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">FBu </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">BIF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cambodian riel </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">៛ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KHR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Central African CFA franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">F.CFA </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">XAF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Canadian dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CAD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cape Verdean escudo </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CVE </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cayman Islands dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KYD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Chilean peso </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CLP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Renminbi </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">¥ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CNY </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Colombian peso </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">COP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Comorian franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">FC </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KMF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Congolese franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">FC </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CDF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cook Islands dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">NZD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New Zealand dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">NZD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Costa Rican colón </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₡ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CRC </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cuban peso </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CUP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Caribbean guilder </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Cg </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">XCG </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Czech koruna </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Kč </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CZK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Danish krone </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">kr </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">DKK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Djiboutian franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Fdj </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">DJF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Dominican peso </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">DOP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Egyptian pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">LE </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">EGP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Eritrean nakfa </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Nkf </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ERN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Swazi lilangeni </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">L  </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SZL </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">South African rand </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">R </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ZAR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ethiopian birr </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Br </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ETB </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Falkland Islands pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">£ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">FKP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sterling </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">£ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GBP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Fijian dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">FJD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">CFP franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₣ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">XPF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Gambian dalasi </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">D </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GMD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Georgian lari </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₾ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GEL </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ghanaian cedi </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₵ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GHS </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Gibraltar pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">£ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GIP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guatemalan quetzal </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Q </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GTQ </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guernsey pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">£ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GBP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guinean franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Fr </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GNF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guyanese dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GYD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Haitian gourde </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">G </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">HTG </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Honduran lempira </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">L </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">HNL </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Hong Kong dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">HKD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Hungarian forint </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Ft </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">HUF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Icelandic króna </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">kr </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ISK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Indonesian rupiah </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Rp </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">IDR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Iranian rial </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Rl </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">IRR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Iraqi dinar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">ID </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">IQD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Manx pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">£ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">GBP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Israeli new shekel </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₪ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ILS </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Jamaican dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">JMD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Japanese yen </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">¥ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">JPY </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Jordanian dinar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">JD </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">JOD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kazakhstani tenge </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₸ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KZT </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kenyan shilling </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Sh </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KES </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kiribati dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KID </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">North Korean won </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₩ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KPW </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">South Korean won </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₩ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KRW </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kuwaiti dinar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">KD </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KWD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kyrgyz som </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">лв </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">KGS </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Lao kip </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₭ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">LAK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Lebanese pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">LL </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">LBP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Lesotho loti </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">L </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">LSL </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Liberian dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">LRD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Libyan dinar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">LD </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">LYD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Swiss franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Fr </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">CHF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Macanese pataca </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">ptc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MOP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Malagasy ariary </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Ar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MGA </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Malawian kwacha </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">K </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MWK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Malaysian ringgit </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">RM </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MYR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Maldivian rufiyaa </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Rf </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MVR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mauritanian ouguiya </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">UM </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MRU </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mauritian rupee </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Re </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MUR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mexican peso </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MXN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Moldovan leu </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Leu </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MDL </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mongolian tögrög </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₮ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MNT </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Moroccan dirham </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">DH </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MAD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mozambican metical </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Mt </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MZN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Burmese kyat </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">K </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MMK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Namibian dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">NAD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Nepalese rupee </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">रु </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">NPR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Nicaraguan córdoba </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">C$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">NIO </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Nigerian naira </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₦ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">NGN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Niue dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">NZD  </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Macedonian denar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">DEN </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">MKD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Turkish lira </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₺ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TRY </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Norwegian krone </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">kr </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">NOK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Omani rial </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">RO </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">OMR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Pakistani rupee </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Re </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">PKR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Panamanian balboa </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">B/ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">PAB </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Papua New Guinean kina </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">K </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">PGK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Paraguayan guaraní </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₲ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">PYG </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Peruvian sol </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">S/ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">PEN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Philippine peso </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₱ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">PHP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Pitcairn Islands dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">PND  </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Polish złoty </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">zł </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">PLN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Qatari riyal </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">QR </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">QAR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Romanian leu </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Leu </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">RON </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Rwandan franc </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">FRw </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">RWF </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Samoan tālā </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">WST </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">São Tomé and Príncipe dobra </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Db </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">STN </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Saudi riyal </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">ر.س </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SAR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Serbian dinar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">DIN </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">RSD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Seychellois rupee </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Re </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SCR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sierra Leonean leone </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Le </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SLE </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Solomon Islands dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SBD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Somali shilling </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Sh </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SOS </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">South Sudanese pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">SS£ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SSP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sri Lankan rupee </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Re </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">LKR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sudanese pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">LS </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SDG </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Surinamese dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SRD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Swedish krona </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">kr </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SEK </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Syrian pound </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">LS </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">SYP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New Taiwan dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TWD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tajikistani somoni </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">SM </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TJS </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tanzanian shilling </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Sh </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TZS </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Thai baht </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">฿ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">THB </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tongan paʻanga </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">T$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TOP </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Transnistrian ruble </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">руб/р </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TR </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Trinidad and Tobago dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TTD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tunisian dinar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">DT </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TND </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Turkmenistani manat </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">m </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TMT </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tuvaluan dollar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">TVD </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ugandan shilling </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Sh </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">UGX </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ukrainian hryvnia </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₴ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">UAH </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">United Arab Emirates dirham </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">د.إ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">AED </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Uruguayan peso </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">$ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">UYU </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Uzbekistani sum </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Sʻ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">UZS </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Vanuatu vatu </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">VT </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">VUV </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Venezuelan sovereign bolívar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Bs.S </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">VES </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Venezuelan digital bolívar </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Bs.D </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">VED </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Vietnamese đồng </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">₫ </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">VND </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Yemeni rial </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">Rl </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">YER </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Zambian kwacha </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">K </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ZMW </pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Zimbabwe gold </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencyIsoCode">ZiG </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_CurrencySymbol">ZWG </pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-4B284BCDA584492ABE94107F6E8EBFC0">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-4B284BCDA584492ABE94107F6E8EBFC0" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">	
+      <pnp:ContentTypes>        
+        <pnp:ContentType ID="0x01003526DF3067DC834CAAAD1CA56AB28BE2" Name="MA_SanctionCategory" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="e6bd6510-f444-417d-8476-580df7fa7171" Name="MA_Color" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+	  <pnp:ListInstance Title="Sanction Category" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/sanction_category" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/sanction_category/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/sanction_category/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/sanction_category/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01003526DF3067DC834CAAAD1CA56AB28BE2" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{BF2239F5-3CFA-441C-9052-95B31B8A4389}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/sanction_category/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Title" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Color" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="e6bd6510-f444-417d-8476-580df7fa7171" Name="MA_Color" DisplayName="Color" />
+          </pnp:FieldRefs>
+		  <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Category A</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Summary">&lt;div class="ExternalClass5E4B48AA679342AEB89B3C4A915F1898"&gt;&lt;div style="font-family&amp;#58;Calibri, Arial, Helvetica, sans-serif;font-size&amp;#58;11pt;color&amp;#58;rgb(0, 0, 0);"&gt;&lt;span lang="EN-GB" style="font-size&amp;#58;11.0pt;font-family&amp;#58;&amp;quot;Arial&amp;quot;,sans-serif;"&gt;All countries in this list are subject to &lt;b&gt;comprehensive
+sanctions&lt;/b&gt;.&lt;br&gt;&lt;b&gt;Prohibit sales&lt;/b&gt; in these countries.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Color">#FF0000</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Category B</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Summary">&lt;div class="ExternalClassD764229FB28D418881681549962DD7D0"&gt;&lt;div style="font-family&amp;#58;Calibri, Arial, Helvetica, sans-serif;font-size&amp;#58;11pt;color&amp;#58;rgb(0, 0, 0);"&gt;&lt;span lang="EN-GB" style="font-size&amp;#58;11.0pt;font-family&amp;#58;&amp;quot;Arial&amp;quot;,sans-serif;"&gt;All manufacturers of user terminals say that
+countries in this list have &lt;b&gt;export controls&lt;/b&gt; in place when provided to &lt;b&gt;‘more
+sensitive’ government customers&lt;/b&gt;.&lt;b&gt;&lt;br&gt;
+Sanctions screen all shipments&lt;/b&gt; to these countries.&lt;br&gt;
+All transactions under this category are to be &lt;b&gt;reviewed by compliance&lt;/b&gt;.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Color">#B22222</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Category C</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Summary">&lt;div class="ExternalClassDBCD0DD7D9EA41F0917FF664A230DABA"&gt;&lt;div style="font-family&amp;#58;Calibri, Arial, Helvetica, sans-serif;font-size&amp;#58;11pt;color&amp;#58;rgb(0, 0, 0);"&gt;&lt;span lang="EN-GB" style="font-size&amp;#58;11.0pt;font-family&amp;#58;&amp;quot;Arial&amp;quot;,sans-serif;"&gt;Manufacturers require the export of user
+terminals to countries in this list to have an &lt;b&gt;end user certificate&lt;/b&gt;.&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="font-family&amp;#58;Calibri, Arial, Helvetica, sans-serif;font-size&amp;#58;11pt;color&amp;#58;rgb(0, 0, 0);"&gt;&lt;span lang="EN-GB" style="font-size&amp;#58;11.0pt;font-family&amp;#58;&amp;quot;Arial&amp;quot;,sans-serif;"&gt;
+DP's may need an &lt;b&gt;export licence&lt;/b&gt; when provided to &lt;b&gt;‘more sensitive’
+government customers&lt;/b&gt;.&lt;b style="font-size&amp;#58;11pt;"&gt;&lt;span lang="EN-GB" style="font-size&amp;#58;11pt;"&gt;Sanctions screen all
+shipments&lt;/span&gt;&lt;/b&gt;&lt;span lang="EN-GB" style="font-size&amp;#58;11pt;"&gt; to these countries.&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Color">#FFA500</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Category D</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Summary">&lt;div class="ExternalClass4516919EA2AB49BB997FFB3DC80D96CA"&gt;&lt;div style="font-family&amp;#58;Calibri, Arial, Helvetica, sans-serif;font-size&amp;#58;11pt;color&amp;#58;rgb(0, 0, 0);"&gt;&lt;span lang="EN-GB" style="font-size&amp;#58;11.0pt;font-family&amp;#58;&amp;quot;Arial&amp;quot;,sans-serif;"&gt;Where user terminals require an &lt;b&gt;export
+licence&lt;/b&gt; when provided to &lt;b&gt;‘more sensitive’ government customers&lt;/b&gt;.&lt;br&gt;&lt;b&gt;Sanctions screen all shipments&lt;/b&gt; to these countries.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Color">#FFFF00</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Category E</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Summary">&lt;div class="ExternalClassF9A2F1A7B1CD41CC84F517D0919BC199"&gt;&lt;div style="font-family&amp;#58;Calibri, Arial, Helvetica, sans-serif;font-size&amp;#58;11pt;color&amp;#58;rgb(0, 0, 0);"&gt;&lt;span lang="EN-GB" style="font-size&amp;#58;11.0pt;font-family&amp;#58;&amp;quot;Arial&amp;quot;,sans-serif;"&gt;No export control issues.&lt;br&gt;&lt;b&gt;Sanctions screen all shipments&lt;/b&gt; to these countries.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Color">#00FF00</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+        </pnp:ListInstance>
+	  </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

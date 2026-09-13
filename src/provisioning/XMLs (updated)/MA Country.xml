@@ -1,0 +1,996 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-649856425F524037AB8483F58DEE821A">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-649856425F524037AB8483F58DEE821A" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x0100BC45D42C2143AE41BCB44E45A551741D" Name="MA_Country" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="197ec4f4-3ff6-4bce-8a09-2ee40a4bb927" Name="MA_Identifier" UpdateChildren="true" />
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" UpdateChildren="true" />
+            <pnp:FieldRef ID="22325660-b76e-46dc-92cc-aff03262dcf7" Name="kbb1e0fa7e68479b9c4b9a2ddc4da292" Hidden="true" DisplayName="MA_Grouping_0" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Country" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/country" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" ListExperience="NewExperience" DefaultDisplayFormUrl="{site}/Lists/country/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/country/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/country/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=49" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100BC45D42C2143AE41BCB44E45A551741D" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{C6B45360-9E3A-4972-9589-DD41B750F845}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/country/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=49">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Identifier" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="197ec4f4-3ff6-4bce-8a09-2ee40a4bb927" Name="MA_Identifier" DisplayName="Identifier" />
+          </pnp:FieldRefs>
+         <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Afghanistan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">AFG</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">South Asia|4c705987-82d1-44df-a2db-9e016f90d31a;South Asia|ad745471-6414-4e3b-85a1-0c85556408e0;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Albania</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ALB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Algeria</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">DZA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;North Africa|53b43292-b8a7-42cd-8f03-0faefc3493ca;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Andorra</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">AND</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Angola</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">AGO</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Antigua and Barbuda</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ATG</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Argentina</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ARG</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Armenia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ARM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Central Asia|592c8553-67d6-424c-acf1-33a4b35f47d4;CIS / Eurasia|cae36d14-8d0b-425f-a40a-31eb988c6f86;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Australia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">AUS</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Australia / Nz|beeabd64-ed66-46d8-a8de-b0cfbdf09c3e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Austria</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">AUT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Azerbaijan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">AZE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Central Asia|592c8553-67d6-424c-acf1-33a4b35f47d4;CIS / Eurasia|cae36d14-8d0b-425f-a40a-31eb988c6f86;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bahamas</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BHS</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bahrain</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BHR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bangladesh</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BGD</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">South Asia|4c705987-82d1-44df-a2db-9e016f90d31a;South Asia|ad745471-6414-4e3b-85a1-0c85556408e0;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Barbados</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BRB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Belarus</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BLR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;CIS / Eurasia|cae36d14-8d0b-425f-a40a-31eb988c6f86;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Belgium</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BEL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Belize</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BLZ</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Benin</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BEN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bhutan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BTN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">South Asia|4c705987-82d1-44df-a2db-9e016f90d31a;South Asia|ad745471-6414-4e3b-85a1-0c85556408e0;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bolivia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BOL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bosnia and Herzegovina</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BIH</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7;Europe|e937444c-1820-4021-adee-ba46167635f9</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Botswana</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BWA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Brazil</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BRA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Brunei</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BRN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bulgaria</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BGR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Burkina Faso</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BFA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Burundi</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">BDI</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cambodia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">KHM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cameroon</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CMR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Canada</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CAN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Canada|c517f3e7-2c67-4399-9520-2503a13c31dd;North America|54ee26b6-3baa-4b3e-bf15-edda10a6eb09;NA|0cec8cef-54c9-4d9b-9f99-592565032553</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cape Verde</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CPV</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Central African Republic</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CAF</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Chad</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TCD</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Chile</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CHL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">China</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CHN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">East Asia|10153b6f-cd54-4979-a710-1a3c3b8ee97e;East Asia|c2638c27-c5a9-4019-8749-f8598b44ffeb;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Colombia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">COL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Comoros</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">COM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Republic of the Congo</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">COG</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+             <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Democratic Republic of the Congo</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">COD</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Costa Rica</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CRI</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Croatia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">HRV</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cuba</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CUB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Cyprus</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CYP</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Czech Republic</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CZE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Denmark</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">DNK</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Djibouti</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">DJI</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Dominica</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">DMA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Dominican Republic</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">DOM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ecuador</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ECU</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Egypt</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">EGY</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;North Africa|53b43292-b8a7-42cd-8f03-0faefc3493ca;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">El Salvador</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SLV</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Equatorial Guinea</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GNQ</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Eritrea</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ERI</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Estonia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">EST</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Eswatini</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SWZ</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ethiopia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ETH</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Fiji</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">FJI</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Finland</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">FIN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">France</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">FRA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Gabon</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GAB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Gambia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GMB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Georgia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GEO</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Central Asia|592c8553-67d6-424c-acf1-33a4b35f47d4;CIS / Eurasia|cae36d14-8d0b-425f-a40a-31eb988c6f86;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Germany</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">DEU</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ghana</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GHA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Greece</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GRC</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Grenada</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GRD</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guatemala</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GTM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guinea</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GIN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guinea-Bissau</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GNB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guyana</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GUY</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Haiti</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">HTI</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Honduras</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">HND</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Hungary</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">HUN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Iceland</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ISL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">India</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">IND</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">South Asia|4c705987-82d1-44df-a2db-9e016f90d31a;South Asia|ad745471-6414-4e3b-85a1-0c85556408e0;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Indonesia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">IDN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Iran</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">IRN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Iraq</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">IRQ</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ireland</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">IRL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Israel</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ISR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Italy</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ITA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Jamaica</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">JAM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Japan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">JPN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">East Asia|10153b6f-cd54-4979-a710-1a3c3b8ee97e;East Asia|c2638c27-c5a9-4019-8749-f8598b44ffeb;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Jordan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">JOR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kazakhstan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">KAZ</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Central Asia|592c8553-67d6-424c-acf1-33a4b35f47d4;Central Asia|d9e8c249-9d1b-4c18-869b-be46bb99cbae;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kenya</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">KEN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kiribati</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">KIR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kuwait</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">KWT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Kyrgyzstan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">KGZ</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Central Asia|592c8553-67d6-424c-acf1-33a4b35f47d4;Central Asia|d9e8c249-9d1b-4c18-869b-be46bb99cbae;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Laos</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LAO</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Latvia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LVA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Lebanon</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LBN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Lesotho</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LSO</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Liberia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LBR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Libya</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LBY</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;North Africa|53b43292-b8a7-42cd-8f03-0faefc3493ca;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Liechtenstein</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LIE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Lithuania</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LTU</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Luxembourg</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LUX</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Madagascar</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MDG</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Malawi</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MWI</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Malaysia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MYS</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Maldives</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MDV</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">South Asia|4c705987-82d1-44df-a2db-9e016f90d31a;South Asia|ad745471-6414-4e3b-85a1-0c85556408e0;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mali</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MLI</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Malta</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MLT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Marshall Islands</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MHL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mauritania</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MRT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;North Africa|53b43292-b8a7-42cd-8f03-0faefc3493ca;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mauritius</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MUS</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mexico</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MEX</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Micronesia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">FSM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Moldova</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MDA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Monaco</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MCO</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mongolia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MNG</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">East Asia|10153b6f-cd54-4979-a710-1a3c3b8ee97e;East Asia|c2638c27-c5a9-4019-8749-f8598b44ffeb;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Montenegro</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MNE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Morocco</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MAR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;North Africa|53b43292-b8a7-42cd-8f03-0faefc3493ca;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Mozambique</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MOZ</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Myanmar</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MMR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Namibia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NAM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Nauru</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NRU</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Nepal</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NPL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">South Asia|4c705987-82d1-44df-a2db-9e016f90d31a;South Asia|ad745471-6414-4e3b-85a1-0c85556408e0;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Netherlands</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NLD</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">New Zealand</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NZL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Australia / Nz|beeabd64-ed66-46d8-a8de-b0cfbdf09c3e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Nicaragua</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NIC</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Niger</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NER</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Nigeria</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NGA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">North Korea</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PRK</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">East Asia|10153b6f-cd54-4979-a710-1a3c3b8ee97e;East Asia|c2638c27-c5a9-4019-8749-f8598b44ffeb;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">North Macedonia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">MKD</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Norway</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">NOR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Oman</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">OMN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Pakistan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PAK</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">South Asia|4c705987-82d1-44df-a2db-9e016f90d31a;South Asia|ad745471-6414-4e3b-85a1-0c85556408e0;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Palau</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PLW</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Panama</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PAN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Papua New Guinea</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PNG</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Paraguay</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PRY</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Peru</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PER</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Philippines</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PHL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Poland</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">POL</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Portugal</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">PRT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Qatar</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">QAT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Romania</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ROU</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Russia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">RUS</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;CIS / Eurasia|cae36d14-8d0b-425f-a40a-31eb988c6f86;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Rwanda</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">RWA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Saint Kitts and Nevis</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">KNA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Saint Lucia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LCA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Saint Vincent and the Grenadines</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">VCT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Samoa</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">WSM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">San Marino</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SMR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sao Tome and Principe</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">STP</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Saudi Arabia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SAU</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Neom Jv Region|77ca6540-a5d0-48db-bfb4-6c507075036c;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Senegal</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SEN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Serbia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SRB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Seychelles</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SYC</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sierra Leone</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SLE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Singapore</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SGP</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Slovakia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SVK</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Slovenia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SVN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Solomon Islands</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SLB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Somalia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SOM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">South Africa</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ZAF</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">South Sudan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SSD</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Spain</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ESP</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sri Lanka</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">LKA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">South Asia|4c705987-82d1-44df-a2db-9e016f90d31a;South Asia|ad745471-6414-4e3b-85a1-0c85556408e0;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sudan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SDN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;North Africa|53b43292-b8a7-42cd-8f03-0faefc3493ca;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Suriname</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SUR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sweden</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SWE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Switzerland</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">CHE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Syria</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">SYR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tajikistan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TJK</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Central Asia|592c8553-67d6-424c-acf1-33a4b35f47d4;Central Asia|d9e8c249-9d1b-4c18-869b-be46bb99cbae;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tanzania</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TZA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Thailand</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">THA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Togo</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TGO</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tonga</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TON</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Trinidad and Tobago</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TTO</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Caribbean|960a4f6f-91c9-4f69-9899-42b36997915f;Caribbean|af5797e6-0236-4016-a014-3ed4a16e47fa;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tunisia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TUN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;North Africa|53b43292-b8a7-42cd-8f03-0faefc3493ca;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Turkey</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TUR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Turkmenistan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TKM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Central Asia|592c8553-67d6-424c-acf1-33a4b35f47d4;Central Asia|d9e8c249-9d1b-4c18-869b-be46bb99cbae;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tuvalu</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">TUV</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Uganda</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">UGA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ukraine</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">UKR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">United Arab Emirates</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ARE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">United Kingdom</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">GBR</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">United States</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">USA</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Conus|24309d0b-602b-43a0-8d2c-32885e354d3a;North America|54ee26b6-3baa-4b3e-bf15-edda10a6eb09;NA|0cec8cef-54c9-4d9b-9f99-592565032553</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Uruguay</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">URY</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Uzbekistan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">UZB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Central Asia|592c8553-67d6-424c-acf1-33a4b35f47d4;Central Asia|d9e8c249-9d1b-4c18-869b-be46bb99cbae;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Vanuatu</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">VUT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Oceania|8eb5af1f-64b9-41e0-9b46-d2601404617e;APAC|6169302e-854a-4da6-98dd-9f5cdea47589;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Vatican City</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">VAT</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Europe|d79de0d8-3c76-4fd8-b126-973e48c9faf4;Europe|e937444c-1820-4021-adee-ba46167635f9;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Venezuela</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">VEN</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Latin America|7228fc96-bb52-4dae-b204-d584b31f0ca4;Latin America|23e7afec-1935-4c60-80f9-2258011c1cc9;LATAM|bc53c83d-c37e-4208-ae80-17eec5a57673</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Vietnam</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">VNM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Southeast Asia|05ad1086-769b-4138-ad9d-3ebdfd31f38c;Southeast Asia|d759e740-a4a6-4b6f-8c36-2142b803be2e;APAC|c78ba9a8-29ee-4fd1-ba75-6fa5b1c07c1c</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Yemen</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">YEM</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Other Middle East|64a72b1a-95d1-4de1-b8b7-d5df8533e1ca;Middle East|4efe981a-d00d-4332-b15b-98f0377eb838;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Zambia</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ZMB</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Zimbabwe</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_Identifier">ZWE</pnp:DataValue>
+              <pnp:DataValue FieldName="kbb1e0fa7e68479b9c4b9a2ddc4da292">Africa|43628b09-fa9b-4beb-b1ba-c75f664ce457;Sub-Saharan Africa|0799222f-5240-45f4-aa73-17436a0a33c1;EMEA|6a1ac911-cfef-4dc9-9281-4e2e6beeb7e7</pnp:DataValue>
+              </pnp:DataRow>
+          </pnp:DataRows>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-72C688CF188D4A6A992747AC1B9FC7A6">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-72C688CF188D4A6A992747AC1B9FC7A6" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x010092D96D11717F014497021E5516FB8182" Name="MA_Fee" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="3b85eebd-6909-49b9-ba66-e670cf3361d0" Name="MA_FeeType" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="dd0a1fe8-2924-41e1-b03a-e08cae63f1fb" Name="MA_FeeChargedBy" UpdateChildren="true" />
+            <pnp:FieldRef ID="b8205b8d-540f-4756-a825-9fba1197db71" Name="MA_Authority" UpdateChildren="true" />
+            <pnp:FieldRef ID="d3d51720-42f8-4c93-9ba7-c61258c40293" Name="MA_LegalSvcProvider" UpdateChildren="true" />
+            <pnp:FieldRef ID="3a9496cb-5f84-4ff7-8d83-b952cb8ef34a" Name="MA_TeleportPartner" UpdateChildren="true" />
+            <pnp:FieldRef ID="0149c8b4-a2c9-48d2-b339-6e1bf26a270a" Name="MA_Currency" UpdateChildren="true" />
+            <pnp:FieldRef ID="acf07ae3-edcf-46d4-823d-92eaddd50c27" Name="MA_VatFree" UpdateChildren="true" />
+            <pnp:FieldRef ID="97bf1c7c-5b5e-427e-8da5-3140bd2cdd02" Name="MA_Vat" UpdateChildren="true" />
+            <pnp:FieldRef ID="8aefed94-8164-4f94-a218-bf4a19668448" Name="MA_VatRate" UpdateChildren="true" />
+            <pnp:FieldRef ID="fe520236-5f90-48b4-892b-37194f8de42e" Name="MA_CostClassification" UpdateChildren="true" />
+            <pnp:FieldRef ID="f6b6a990-f135-47c3-984c-5f9433d3fef7" Name="MA_PoType" UpdateChildren="true" />
+            <pnp:FieldRef ID="f20f3325-41d0-4818-b7b6-1d87259f8075" Name="MA_FeeStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="c1e07e0c-4096-464e-abcb-48525e81320e" Name="MA_DueDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="d0fb63eb-d5e8-4938-85ce-40d2a11aeb13" Name="MA_IsRepeatingFee" UpdateChildren="true" />
+            <pnp:FieldRef ID="f6b3a432-0885-4311-8eb8-6136e3da1779" Name="MA_RecurrencePattern" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x010092D96D11717F014497021E5516FB818201" Name="MA_SNPFee" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="3b85eebd-6909-49b9-ba66-e670cf3361d0" Name="MA_FeeType" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="dd0a1fe8-2924-41e1-b03a-e08cae63f1fb" Name="MA_FeeChargedBy" UpdateChildren="true" />
+            <pnp:FieldRef ID="b8205b8d-540f-4756-a825-9fba1197db71" Name="MA_Authority" UpdateChildren="true" />
+            <pnp:FieldRef ID="d3d51720-42f8-4c93-9ba7-c61258c40293" Name="MA_LegalSvcProvider" UpdateChildren="true" />
+            <pnp:FieldRef ID="3a9496cb-5f84-4ff7-8d83-b952cb8ef34a" Name="MA_TeleportPartner" UpdateChildren="true" />
+            <pnp:FieldRef ID="0149c8b4-a2c9-48d2-b339-6e1bf26a270a" Name="MA_Currency" UpdateChildren="true" />
+            <pnp:FieldRef ID="acf07ae3-edcf-46d4-823d-92eaddd50c27" Name="MA_VatFree" UpdateChildren="true" />
+            <pnp:FieldRef ID="97bf1c7c-5b5e-427e-8da5-3140bd2cdd02" Name="MA_Vat" UpdateChildren="true" />
+            <pnp:FieldRef ID="8aefed94-8164-4f94-a218-bf4a19668448" Name="MA_VatRate" UpdateChildren="true" />
+            <pnp:FieldRef ID="fe520236-5f90-48b4-892b-37194f8de42e" Name="MA_CostClassification" UpdateChildren="true" />
+            <pnp:FieldRef ID="f6b6a990-f135-47c3-984c-5f9433d3fef7" Name="MA_PoType" UpdateChildren="true" />
+            <pnp:FieldRef ID="f20f3325-41d0-4818-b7b6-1d87259f8075" Name="MA_FeeStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="c1e07e0c-4096-464e-abcb-48525e81320e" Name="MA_DueDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="d0fb63eb-d5e8-4938-85ce-40d2a11aeb13" Name="MA_IsRepeatingFee" UpdateChildren="true" />
+            <pnp:FieldRef ID="f6b3a432-0885-4311-8eb8-6136e3da1779" Name="MA_RecurrencePattern" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="eb908401-5401-4377-9e61-a7fec4f506c4" Name="MA_SNP" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x010092D96D11717F014497021E5516FB818202" Name="MA_RequirementFee" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="3b85eebd-6909-49b9-ba66-e670cf3361d0" Name="MA_FeeType" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="dd0a1fe8-2924-41e1-b03a-e08cae63f1fb" Name="MA_FeeChargedBy" UpdateChildren="true" />
+            <pnp:FieldRef ID="b8205b8d-540f-4756-a825-9fba1197db71" Name="MA_Authority" UpdateChildren="true" />
+            <pnp:FieldRef ID="d3d51720-42f8-4c93-9ba7-c61258c40293" Name="MA_LegalSvcProvider" UpdateChildren="true" />
+            <pnp:FieldRef ID="3a9496cb-5f84-4ff7-8d83-b952cb8ef34a" Name="MA_TeleportPartner" UpdateChildren="true" />
+            <pnp:FieldRef ID="0149c8b4-a2c9-48d2-b339-6e1bf26a270a" Name="MA_Currency" UpdateChildren="true" />
+            <pnp:FieldRef ID="acf07ae3-edcf-46d4-823d-92eaddd50c27" Name="MA_VatFree" UpdateChildren="true" />
+            <pnp:FieldRef ID="97bf1c7c-5b5e-427e-8da5-3140bd2cdd02" Name="MA_Vat" UpdateChildren="true" />
+            <pnp:FieldRef ID="8aefed94-8164-4f94-a218-bf4a19668448" Name="MA_VatRate" UpdateChildren="true" />
+            <pnp:FieldRef ID="fe520236-5f90-48b4-892b-37194f8de42e" Name="MA_CostClassification" UpdateChildren="true" />
+            <pnp:FieldRef ID="f6b6a990-f135-47c3-984c-5f9433d3fef7" Name="MA_PoType" UpdateChildren="true" />
+            <pnp:FieldRef ID="f20f3325-41d0-4818-b7b6-1d87259f8075" Name="MA_FeeStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="c1e07e0c-4096-464e-abcb-48525e81320e" Name="MA_DueDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="d0fb63eb-d5e8-4938-85ce-40d2a11aeb13" Name="MA_IsRepeatingFee" UpdateChildren="true" />
+            <pnp:FieldRef ID="f6b3a432-0885-4311-8eb8-6136e3da1779" Name="MA_RecurrencePattern" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="900842db-98f4-4cbf-bfa7-67169d1ab161" Name="MA_Requirement" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Fee" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/fee" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/fee/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/fee/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/fee/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x010092D96D11717F014497021E5516FB818201" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x010092D96D11717F014497021E5516FB818202" />
+         
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{322D71D5-307E-474D-8E3C-5A7D8AD5C8FF}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/fee/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created" Ascending="FALSE" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_FeeType" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Authority" />
+                <FieldRef Name="MA_LegalSvcProvider" />
+                <FieldRef Name="MA_TeleportPartner" />
+                <FieldRef Name="MA_Currency" />
+                <FieldRef Name="MA_VatFree" />
+                <FieldRef Name="MA_Vat" />
+                <FieldRef Name="MA_VatRate" />
+                <FieldRef Name="MA_CostClassification" />
+                <FieldRef Name="MA_PoType" />
+                <FieldRef Name="MA_FeeStatus" />
+                <FieldRef Name="MA_DueDate" />
+                <FieldRef Name="MA_IsRepeatingFee"/>
+                <FieldRef Name="MA_RecurrencePattern" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ColumnWidth>
+                <FieldRef Name="Recurrence Pattern" width="150.72723388671875" />
+                <FieldRef Name="Legal Service Provider" width="165.272705078125" />
+              </ColumnWidth>
+              <ViewData />
+            </View>
+            <View Name="{B2955375-BA78-4E71-AB74-65F6A2883999}" Type="HTML" DisplayName="SNP Fees" Url="{site}/Lists/fee/SNPFees.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created" Ascending="FALSE" />
+                </OrderBy>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_SNPFee</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Authority" />
+                <FieldRef Name="MA_LegalSvcProvider" />
+                <FieldRef Name="MA_TeleportPartner" />
+                <FieldRef Name="MA_Currency" />
+                <FieldRef Name="MA_FeeType" />
+                <FieldRef Name="MA_VatFree" />
+                <FieldRef Name="MA_Vat" />
+                <FieldRef Name="MA_VatRate" />
+                <FieldRef Name="MA_CostClassification" />
+                <FieldRef Name="MA_PoType" />
+                <FieldRef Name="MA_FeeStatus" />
+                <FieldRef Name="MA_DueDate" />
+                <FieldRef Name="MA_IsRepeatingFee"/>
+                <FieldRef Name="MA_RecurrencePattern" />
+                <FieldRef Name="MA_Comments" />
+                <FieldRef Name="MA_SNP" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ColumnWidth>
+                <FieldRef Name="Satellite Network Portal" width="173.9090576171875" />
+                <FieldRef Name="Recurrence Pattern" width="156.9090576171875" />
+                <FieldRef Name="Legal Service Provider" width="169.272705078125" />
+              </ColumnWidth>
+              <ViewData />
+            </View>
+            <View Name="{2BF85E5B-13FF-4615-ABDB-E6B2BAF0B8A4}" Type="HTML" DisplayName="Requirement Fees" Url="{site}/Lists/fee/RequirementFees.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created" Ascending="FALSE" />
+                </OrderBy>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_RequirementFee</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Authority" />
+                <FieldRef Name="MA_LegalSvcProvider" />
+                <FieldRef Name="MA_TeleportPartner" />
+                <FieldRef Name="MA_Currency" />
+                <FieldRef Name="MA_FeeType" />
+                <FieldRef Name="MA_VatFree" />
+                <FieldRef Name="MA_Vat" />
+                <FieldRef Name="MA_VatRate" />
+                <FieldRef Name="MA_CostClassification" />
+                <FieldRef Name="MA_PoType" />
+                <FieldRef Name="MA_FeeStatus" />
+                <FieldRef Name="MA_DueDate" />
+                <FieldRef Name="MA_IsRepeatingFee"/>
+                <FieldRef Name="MA_RecurrencePattern" />
+                <FieldRef Name="MA_Comments" />
+                <FieldRef Name="MA_Requirement" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ColumnWidth>
+                <FieldRef Name="Recurrence Pattern" width="152.72723388671875" />
+                <FieldRef Name="Legal Service Provider" width="168.09088134765625" />
+              </ColumnWidth>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="3b85eebd-6909-49b9-ba66-e670cf3361d0" Name="MA_FeeType" DisplayName="Fee Type" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="acf07ae3-edcf-46d4-823d-92eaddd50c27" Name="MA_VatFree" DisplayName="VAT Free" />
+            <pnp:FieldRef ID="97bf1c7c-5b5e-427e-8da5-3140bd2cdd02" Name="MA_Vat" DisplayName="VAT" />
+            <pnp:FieldRef ID="8aefed94-8164-4f94-a218-bf4a19668448" Name="MA_VatRate" DisplayName="VAT Rate" />
+            <pnp:FieldRef ID="fe520236-5f90-48b4-892b-37194f8de42e" Name="MA_CostClassification" DisplayName="Classification" />
+            <pnp:FieldRef ID="f6b6a990-f135-47c3-984c-5f9433d3fef7" Name="MA_PoType" DisplayName="Po Type" />
+            <pnp:FieldRef ID="f20f3325-41d0-4818-b7b6-1d87259f8075" Name="MA_FeeStatus" DisplayName="Status" />
+            <pnp:FieldRef ID="c1e07e0c-4096-464e-abcb-48525e81320e" Name="MA_DueDate" DisplayName="Due Date" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="3a9496cb-5f84-4ff7-8d83-b952cb8ef34a" Name="MA_TeleportPartner" DisplayName="Teleport Partner" />
+            <pnp:FieldRef ID="b8205b8d-540f-4756-a825-9fba1197db71" Name="MA_Authority" DisplayName="Authority" />
+            <pnp:FieldRef ID="d3d51720-42f8-4c93-9ba7-c61258c40293" Name="MA_LegalSvcProvider" DisplayName="Legal Service Provider" />
+            <pnp:FieldRef ID="0149c8b4-a2c9-48d2-b339-6e1bf26a270a" Name="MA_Currency" DisplayName="Currency" />
+            <pnp:FieldRef ID="d0fb63eb-d5e8-4938-85ce-40d2a11aeb13" Name="MA_IsRepeatingFee" DisplayName="Repeating Fee" />
+            <pnp:FieldRef ID="f6b3a432-0885-4311-8eb8-6136e3da1779" Name="MA_RecurrencePattern" DisplayName="Recurrence Pattern" />
+            <pnp:FieldRef ID="dd0a1fe8-2924-41e1-b03a-e08cae63f1fb" Name="MA_FeeChargedBy" DisplayName="Fee Charged By" />
+            <pnp:FieldRef ID="eb908401-5401-4377-9e61-a7fec4f506c4" Name="MA_SNP" DisplayName="Satellite Network Portal" />
+            <pnp:FieldRef ID="900842db-98f4-4cbf-bfa7-67169d1ab161" Name="MA_Requirement" DisplayName="MA Requirement" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

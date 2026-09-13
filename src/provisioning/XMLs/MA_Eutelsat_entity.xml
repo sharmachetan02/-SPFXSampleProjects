@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-4B284BCDA584492ABE94107F6E8EBFC0">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-4B284BCDA584492ABE94107F6E8EBFC0" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">	
+      <pnp:ContentTypes>
+        <pnp:ContentType DisplayFormClientSideComponentId="" DisplayFormClientSideComponentProperties="" NewFormClientSideComponentProperties="" EditFormClientSideComponentId="" EditFormClientSideComponentProperties="" ID="0x0100429E3F54EE591F459DA18E05E550F989" Name="MA_EutelsatEntity" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="" UpdateChildren="false">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" UpdateChildren="true" />
+            <pnp:FieldRef ID="5a926bcf-b589-4b62-b616-c9b7523ee181" Name="MA_EutelsatEntityStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Eutelsat Entity" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/eutelsat_entity" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableFolderCreation="false" EnableAttachments="false" DefaultDisplayFormUrl="{site}/Lists/eutelsat_entity/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/eutelsat_entity/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/eutelsat_entity/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100429E3F54EE591F459DA18E05E550F989" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{768962D8-35D3-4C75-B67D-13DE605F6FB3}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/eutelsat_entity/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Address" />
+                <FieldRef Name="MA_EutelsatEntityStatus" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" DisplayName="Title" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" DisplayName="Legal Address" />
+            <pnp:FieldRef ID="5a926bcf-b589-4b62-b616-c9b7523ee181" Name="MA_EutelsatEntityStatus" DisplayName="Status" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" DisplayName="Documents Space" />
+          </pnp:FieldRefs>
+          <pnp:FieldDefaults>
+            <pnp:FieldDefault FieldName="MA_EutelsatEntityStatus" />
+          </pnp:FieldDefaults>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

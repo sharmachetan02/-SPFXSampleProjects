@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-649856425F524037AB8483F58DEE821A">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-649856425F524037AB8483F58DEE821A" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x0100BC45D42C2143AE41BCB44E45A551741D" Name="MA_Country" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="197ec4f4-3ff6-4bce-8a09-2ee40a4bb927" Name="MA_Identifier" UpdateChildren="true" />
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Country" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/country" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" ListExperience="NewExperience" DefaultDisplayFormUrl="{site}/Lists/country/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/country/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/country/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=49" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100BC45D42C2143AE41BCB44E45A551741D" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{C6B45360-9E3A-4972-9589-DD41B750F845}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/country/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=49">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Identifier" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="197ec4f4-3ff6-4bce-8a09-2ee40a4bb927" Name="MA_Identifier" DisplayName="Identifier" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-1D7E3001F43B46D889D76DDF74F8CB37">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-1D7E3001F43B46D889D76DDF74F8CB37" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E826" Name="MA_Contact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+		<pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E82602" Name="MA_AuthorityContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+		<pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E82601" Name="MA_LegalSvcProviderContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E8260101" Name="MA_LegalRepresentativeContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E8260102" Name="MA_LawFirmContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E8260201" Name="MA_RegulatorContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E8260202" Name="MA_AdministrationContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E8260203" Name="MA_OrganizationContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E82603" Name="MA_TeleportPartnerContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E82604" Name="MA_DistributionPartnerContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009683AA37F0D20E469880B9832370E82605" Name="MA_EutelsatContact" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" UpdateChildren="true" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" UpdateChildren="true" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" UpdateChildren="true" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Contact" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/contact" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/contact/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/contact/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/contact/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01009683AA37F0D20E469880B9832370E8260201" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009683AA37F0D20E469880B9832370E8260202" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009683AA37F0D20E469880B9832370E8260203" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009683AA37F0D20E469880B9832370E8260101" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009683AA37F0D20E469880B9832370E8260102" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009683AA37F0D20E469880B9832370E82603" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009683AA37F0D20E469880B9832370E82604" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009683AA37F0D20E469880B9832370E82605" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{EF256530-F312-46E7-A839-2390D8CE5B97}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/contact/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{F870C6E2-C78F-4386-9D73-3083698DD522}" Type="HTML" DisplayName="Regulator Contacts" Url="{site}/Lists/contact/RegulatorContacts.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_RegulatorContact</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{41062DD2-3FA9-47EE-99B4-2A15CE1E648B}" Type="HTML" DisplayName="Administration Contacts" Url="{site}/Lists/contact/AdministrationContacts.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_AdministrationContact</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{21E7572D-6C58-4C30-B6C1-033A36A76DC6}" Type="HTML" DisplayName="Organization Contacts" Url="{site}/Lists/contact/OrganizationContacts.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_OrganizationContact</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{57A85F4E-7924-4782-8AEC-FC158126044E}" Type="HTML" DisplayName="Legal Representative Contacts" Url="{site}/Lists/contact/LegalRepresentativeContacts.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_LegalRepresentativeContact</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{A0683C43-1F32-4187-A7B1-FCD3EA9B642D}" Type="HTML" DisplayName="Law Firm Contacts" Url="{site}/Lists/contact/LawFirmContacts.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_LawFirmContact</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{828681DA-F21D-4721-8343-0FE0C22D6C67}" Type="HTML" DisplayName="Teleport Partner Contacts" Url="{site}/Lists/contact/TeleportPartnerContacts.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_TeleportPartnerContact</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{22E79379-88CD-4A16-AAAF-53E80B1AAF9F}" Type="HTML" DisplayName="Distribution Partner Contacts" Url="{site}/Lists/contact/DistributionPartnerContacts.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_DistributionPartnerContact</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{6F851959-218A-4FC9-8056-0490C8FC0E61}" Type="HTML" DisplayName="Eutelsat Contacts" Url="{site}/Lists/contact/EutelsatContacts.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_EutelsatContact</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_FirstName" />
+                <FieldRef Name="MA_LastName" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_JobTitle" />
+                <FieldRef Name="MA_Department" />
+                <FieldRef Name="MA_Email" />
+                <FieldRef Name="MA_PhoneNumber" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="71860050-8b94-47f5-a88b-2bb0dbe22a8a" Name="MA_FirstName" DisplayName="First Name" />
+            <pnp:FieldRef ID="4504b9b2-9c5d-4026-9c07-bfacb5e56ca9" Name="MA_LastName" DisplayName="Last Name" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="c6535938-dd71-4f8b-b04e-ed0211fe2628" Name="MA_PhoneNumber" DisplayName="Phone Number" />
+            <pnp:FieldRef ID="0523ba51-4a4f-4269-a27a-01bec819608d" Name="MA_Email" DisplayName="Email" />
+            <pnp:FieldRef ID="98c8a93d-9d7c-4ab9-a20c-2d2b2e0b4ed1" Name="MA_JobTitle" DisplayName="Job Title" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="32e5c583-8824-458f-ab1f-d740fe7730c8" Name="MA_Department" DisplayName="Department" />
+          </pnp:FieldRefs>          
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

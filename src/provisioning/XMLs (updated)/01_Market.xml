@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-7D1CE3B6F46D4673B7551E122CDD422A">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-7D1CE3B6F46D4673B7551E122CDD422A" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x010040CF47236D86974EBD56BBB62FC23C79" Name="MA_Market" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="c042a256-787d-4a6f-8a8a-cf6ab767f12d" Name="ContentType" UpdateChildren="true" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="aad202a4-d653-4898-9a85-5cd6a4b7f3a1" Name="MA_Country" UpdateChildren="true" />
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" UpdateChildren="true" />
+            <pnp:FieldRef ID="39f0f3a0-7dea-4c5d-95e9-f6cc77253a53" Name="MA_IsSanctioned" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a35807a-5f69-4c6a-bdbd-f31fa580e253" Name="MA_SanctionCategory" UpdateChildren="true" />
+            <pnp:FieldRef ID="52968790-6127-48f0-b5c8-5cfea77d6701" Name="MA_Priority" UpdateChildren="true" />
+            <pnp:FieldRef ID="ef8b276a-c098-4195-998b-ada4ccd9120d" Name="MA_Capacity" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Market" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/market" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/market/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/market/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/market/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x010040CF47236D86974EBD56BBB62FC23C79" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{8DC0BF8E-47E0-47F7-B346-35CD414D3A65}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/market/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=49">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Market" />
+                <FieldRef Name="MA_Grouping" />
+                <FieldRef Name="MA_SanctionCategory" />
+                <FieldRef Name="MA_IsSanctioned" />
+                <FieldRef Name="MA_Priority" />
+                <FieldRef Name="MA_Capacity" />
+                <FieldRef Name="MA_Comments" />
+                <FieldRef Name="MA_DocumentsSpace" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ColumnWidth>
+                <FieldRef Name="Grouping" width="127.272705078125" />
+                <FieldRef Name="Sanction Category" width="150.0113525390625" />
+              </ColumnWidth>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" DisplayName="Grouping" />
+            <pnp:FieldRef ID="aad202a4-d653-4898-9a85-5cd6a4b7f3a1" Name="MA_Country" DisplayName="Country" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="39f0f3a0-7dea-4c5d-95e9-f6cc77253a53" Name="MA_IsSanctioned" DisplayName="Is Sanctioned" />
+            <pnp:FieldRef ID="52968790-6127-48f0-b5c8-5cfea77d6701" Name="MA_Priority" DisplayName="MA Priority" />
+            <pnp:FieldRef ID="ef8b276a-c098-4195-998b-ada4ccd9120d" Name="MA_Capacity" DisplayName="Capacity" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" DisplayName="Documents Space" />
+            <pnp:FieldRef ID="4a35807a-5f69-4c6a-bdbd-f31fa580e253" Name="MA_SanctionCategory" DisplayName="Sanction Category" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

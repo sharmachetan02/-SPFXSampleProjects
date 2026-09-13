@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-AAB2EE8B987B445B9F5C9BC058510A1F">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-AAB2EE8B987B445B9F5C9BC058510A1F" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x01001A3C92175051C64194C6F4F597B89478" Name="MA_RequirementRelationship" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="eb34cb11-0c92-4c5c-ac3d-0273623cc026" Name="MA_RequirementRelationshipType" UpdateChildren="true" />
+            <pnp:FieldRef ID="84a99318-1eb4-4cd8-aac8-7d81bacfcc4b" Name="MA_DistributionPartner" UpdateChildren="true" />
+            <pnp:FieldRef ID="eb908401-5401-4377-9e61-a7fec4f506c4" Name="MA_SNP" UpdateChildren="true" />
+            <pnp:FieldRef ID="b8205b8d-540f-4756-a825-9fba1197db71" Name="MA_Authority" UpdateChildren="true" />
+            <pnp:FieldRef ID="d3d51720-42f8-4c93-9ba7-c61258c40293" Name="MA_LegalSvcProvider" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Requirement Relationship" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/requirement_relationship" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/requirement_relationship/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/requirement_relationship/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/requirement_relationship/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01001A3C92175051C64194C6F4F597B89478" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{ED4C510B-4AFB-475E-B31D-68FFCFFE015A}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/requirement_relationship/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created" Ascending="FALSE" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_RequirementRelationshipType" />
+                <FieldRef Name="MA_DistributionPartner" />
+                <FieldRef Name="MA_SNP" />
+                <FieldRef Name="MA_Authority" />
+                <FieldRef Name="MA_LegalSvcProvider" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ColumnWidth>
+                <FieldRef Name="Relationship Type" width="161.272705078125" />
+                <FieldRef Name="Distribution Partner(s)" width="169.0113525390625" />
+                <FieldRef Name="Satellite Network Portal(s)" width="199.0113525390625" />
+                <FieldRef Name="Authority(ies)" width="124.0113525390625" />
+                <FieldRef Name="Legal Service Provider" width="164.0113525390625" />
+                <FieldRef Name="Legal Service Provider(s)" width="186.0113525390625" />
+              </ColumnWidth>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="eb34cb11-0c92-4c5c-ac3d-0273623cc026" Name="MA_RequirementRelationshipType" DisplayName="Relationship Type" />
+            <pnp:FieldRef ID="84a99318-1eb4-4cd8-aac8-7d81bacfcc4b" Name="MA_DistributionPartner" DisplayName="Distribution Partner(s)" />
+            <pnp:FieldRef ID="eb908401-5401-4377-9e61-a7fec4f506c4" Name="MA_SNP" DisplayName="Satellite Network Portal(s)" />
+            <pnp:FieldRef ID="b8205b8d-540f-4756-a825-9fba1197db71" Name="MA_Authority" DisplayName="Authority(ies)" />
+            <pnp:FieldRef ID="d3d51720-42f8-4c93-9ba7-c61258c40293" Name="MA_LegalSvcProvider" DisplayName="Legal Service Provider(s)" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

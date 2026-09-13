@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-1CBF46C0B8204D73A4B518C46DCF85C1">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-1CBF46C0B8204D73A4B518C46DCF85C1" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x01009E58F9850C7D4144AD7FB9331AD6A248" Name="MA_RequirementBasic" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+         
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="4c0f05cb-3ab2-4440-bc5d-cafea3367a72" Name="MA_RequirementResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="79c09789-6107-428b-87c0-c62d375b21d9" Name="MA_RAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="24d870d7-6b2d-4421-8acd-0a38215332b7" Name="MA_RequirementVertical1" UpdateChildren="true" />
+            <pnp:FieldRef ID="37a37d18-a6ac-4d04-8638-2d947cff44f1" Name="MA_SatelliteOrbit" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" UpdateChildren="true"  Hidden="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009E58F9850C7D4144AD7FB9331AD6A24801" Name="MA_RequirementGeneric" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+        
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="4c0f05cb-3ab2-4440-bc5d-cafea3367a72" Name="MA_RequirementResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="79c09789-6107-428b-87c0-c62d375b21d9" Name="MA_RAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="24d870d7-6b2d-4421-8acd-0a38215332b7" Name="MA_RequirementVertical1" UpdateChildren="true" />
+            <pnp:FieldRef ID="37a37d18-a6ac-4d04-8638-2d947cff44f1" Name="MA_SatelliteOrbit" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" UpdateChildren="true"  Hidden="true" />
+            <pnp:FieldRef ID="dd1ff473-913b-490d-b1fb-96f01e15a848" Name="MA_RequirementApplicationDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="a55d459d-a0cc-4b75-9139-9d39a650f2e3" Name="MA_RequirementEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="4f577851-d282-4aea-914b-fd46b467eb94" Name="MA_RequirementEffectiveDate" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009E58F9850C7D4144AD7FB9331AD6A24802" Name="MA_RequirementLegal" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+           
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="4c0f05cb-3ab2-4440-bc5d-cafea3367a72" Name="MA_RequirementResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="79c09789-6107-428b-87c0-c62d375b21d9" Name="MA_RAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="24d870d7-6b2d-4421-8acd-0a38215332b7" Name="MA_RequirementVertical1" UpdateChildren="true" />
+            <pnp:FieldRef ID="37a37d18-a6ac-4d04-8638-2d947cff44f1" Name="MA_SatelliteOrbit" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" UpdateChildren="true"  Hidden="true" />
+            <pnp:FieldRef ID="dd1ff473-913b-490d-b1fb-96f01e15a848" Name="MA_RequirementApplicationDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="a55d459d-a0cc-4b75-9139-9d39a650f2e3" Name="MA_RequirementEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="4f577851-d282-4aea-914b-fd46b467eb94" Name="MA_RequirementEffectiveDate" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009E58F9850C7D4144AD7FB9331AD6A24803" Name="MA_RequirementNOL" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="4c0f05cb-3ab2-4440-bc5d-cafea3367a72" Name="MA_RequirementResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="79c09789-6107-428b-87c0-c62d375b21d9" Name="MA_RAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="24d870d7-6b2d-4421-8acd-0a38215332b7" Name="MA_RequirementVertical1" UpdateChildren="true" />
+            <pnp:FieldRef ID="37a37d18-a6ac-4d04-8638-2d947cff44f1" Name="MA_SatelliteOrbit" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" UpdateChildren="true"  Hidden="true" />
+            <pnp:FieldRef ID="a5ed218e-4c1c-4293-b929-b7e3ef3a3859" Name="MA_Letter1Milestone" UpdateChildren="true" />
+            <pnp:FieldRef ID="17a98afc-694f-4575-99a6-9f482872f1b8" Name="MA_Letter1SentDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="153e48d0-57f4-460c-ade3-66fa43683c80" Name="MA_Letter2Milestone" UpdateChildren="true" />
+            <pnp:FieldRef ID="89180d15-4d68-499a-b322-ec29d648225b" Name="MA_Letter2SentDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="b8b5bbcd-fee0-4635-86a1-94f09fed56cd" Name="MA_ResponseDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="afcc4a70-b023-4261-af58-80629e032f74" Name="MA_ResponseSummary" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01009E58F9850C7D4144AD7FB9331AD6A24804" Name="MA_RequirementCredential" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+           
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="4c0f05cb-3ab2-4440-bc5d-cafea3367a72" Name="MA_RequirementResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="79c09789-6107-428b-87c0-c62d375b21d9" Name="MA_RAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="24d870d7-6b2d-4421-8acd-0a38215332b7" Name="MA_RequirementVertical1" UpdateChildren="true" />
+            <pnp:FieldRef ID="37a37d18-a6ac-4d04-8638-2d947cff44f1" Name="MA_SatelliteOrbit" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" UpdateChildren="true"  Hidden="true" />
+            <pnp:FieldRef ID="e7184390-73b5-451d-8752-0758152812ef" Name="MA_CredentialType" UpdateChildren="true" />
+            <pnp:FieldRef ID="d4f2a734-5cab-4270-9c00-2170c57905b7" Name="MA_Reference" UpdateChildren="true" />
+            <pnp:FieldRef ID="dd1ff473-913b-490d-b1fb-96f01e15a848" Name="MA_RequirementApplicationDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="a55d459d-a0cc-4b75-9139-9d39a650f2e3" Name="MA_RequirementEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="b6857615-3cf3-4c90-b16b-6a28c0030059" Name="MA_IsTrial" UpdateChildren="true" />
+            <pnp:FieldRef ID="a92fe01b-825f-4831-b045-3ec4eaba15ee" Name="MA_RenewalTerm" UpdateChildren="true" />
+            <pnp:FieldRef ID="4f577851-d282-4aea-914b-fd46b467eb94" Name="MA_RequirementEffectiveDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="3365fe59-dd60-4ba3-b6d0-4482310c3a89" Name="MA_RequirementExpirationDate" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="MA Requirement" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/requirement" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/requirement/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/requirement/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/requirement/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01009E58F9850C7D4144AD7FB9331AD6A24801" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009E58F9850C7D4144AD7FB9331AD6A24802" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009E58F9850C7D4144AD7FB9331AD6A24803" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01009E58F9850C7D4144AD7FB9331AD6A24804" />
+           
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{A7D48CB5-A58C-4E28-B5FC-74F8C060BBF8}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/requirement/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_RequirementVertical1" />
+                <FieldRef Name="MA_RAGStatus" />
+                <FieldRef Name="MA_SatelliteOrbit" />
+                <FieldRef Name="MA_RequirementApplicationDate" />
+                <FieldRef Name="MA_RequirementEffectiveDate" />
+                <FieldRef Name="MA_RequirementExpirationDate" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+            <View Name="{C8723760-63C6-4756-85A9-481CFD6E1AF3}" Type="HTML" DisplayName="Generic" Url="{site}/Lists/requirement/Generic.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_RequirementGeneric</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_RequirementVertical1" />
+                <FieldRef Name="MA_RAGStatus" />
+                <FieldRef Name="MA_SatelliteOrbit" />
+                <FieldRef Name="MA_RequirementApplicationDate" />
+                <FieldRef Name="MA_RequirementEffectiveDate" />
+                <FieldRef Name="MA_RequirementExpirationDate" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{0538958D-48F2-42BF-A09F-2523CD89DDF2}" Type="HTML" DisplayName="Legal" Url="{site}/Lists/requirement/Legal.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_RequirementLegal</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_RequirementVertical1" />
+                <FieldRef Name="MA_RAGStatus" />
+                <FieldRef Name="MA_SatelliteOrbit" />
+                <FieldRef Name="MA_RequirementApplicationDate" />
+                <FieldRef Name="MA_RequirementEffectiveDate" />
+                <FieldRef Name="MA_RequirementExpirationDate" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{F87D981B-1BCA-4D0D-AD7E-69D2FCB04A2A}" Type="HTML" DisplayName="NOL" Url="{site}/Lists/requirement/NOL.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_RequirementNOL</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_RequirementVertical1" />
+                <FieldRef Name="MA_SatelliteOrbit" />
+                <FieldRef Name="MA_Letter1Milestone" />
+                <FieldRef Name="MA_Letter1SentDate" />
+                <FieldRef Name="MA_Letter2Milestone" />
+                <FieldRef Name="MA_Letter2SentDate" />
+                <FieldRef Name="MA_ResponseDate" />
+                <FieldRef Name="MA_ResponseSummary" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{9EE5AC46-2E4B-4F77-A87E-FB2335679190}" Type="HTML" DisplayName="Credential" Url="{site}/Lists/requirement/Credential.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_RequirementCredential</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_CredentialType" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_RequirementVertical1" />
+                <FieldRef Name="MA_RAGStatus" />
+                <FieldRef Name="MA_SatelliteOrbit" />
+                <FieldRef Name="MA_IsTrial" />
+                <FieldRef Name="MA_RenewalTerm" />
+                <FieldRef Name="MA_RequirementApplicationDate" />
+                <FieldRef Name="MA_RequirementEffectiveDate" />
+                <FieldRef Name="MA_RequirementExpirationDate" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="4c0f05cb-3ab2-4440-bc5d-cafea3367a72" Name="MA_RequirementResponsible" DisplayName="Responsible" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" DisplayName="Readiness Responsible" />
+            <pnp:FieldRef ID="79c09789-6107-428b-87c0-c62d375b21d9" Name="MA_RAGStatus" DisplayName="RAG Status" />
+            <pnp:FieldRef ID="24d870d7-6b2d-4421-8acd-0a38215332b7" Name="MA_RequirementVertical1" DisplayName="Vertical(s)" />
+            <pnp:FieldRef ID="37a37d18-a6ac-4d04-8638-2d947cff44f1" Name="MA_SatelliteOrbit" DisplayName="Satellite Orbit" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" DisplayName="Documents Space" />
+            <pnp:FieldRef ID="dd1ff473-913b-490d-b1fb-96f01e15a848" Name="MA_RequirementApplicationDate" DisplayName="Application Date" />
+            <pnp:FieldRef ID="a55d459d-a0cc-4b75-9139-9d39a650f2e3" Name="MA_RequirementEstimatedDate" DisplayName="Estimated Date" />
+            <pnp:FieldRef ID="4f577851-d282-4aea-914b-fd46b467eb94" Name="MA_RequirementEffectiveDate" DisplayName="Effective Date" />
+            <pnp:FieldRef ID="a5ed218e-4c1c-4293-b929-b7e3ef3a3859" Name="MA_Letter1Milestone" DisplayName="Letter 1 Milestone" />
+            <pnp:FieldRef ID="17a98afc-694f-4575-99a6-9f482872f1b8" Name="MA_Letter1SentDate" DisplayName="Letter 1 Sent Date" />
+            <pnp:FieldRef ID="153e48d0-57f4-460c-ade3-66fa43683c80" Name="MA_Letter2Milestone" DisplayName="Letter 2 Milestone" />
+            <pnp:FieldRef ID="89180d15-4d68-499a-b322-ec29d648225b" Name="MA_Letter2SentDate" DisplayName="Letter 2 Sent Date" />
+            <pnp:FieldRef ID="b8b5bbcd-fee0-4635-86a1-94f09fed56cd" Name="MA_ResponseDate" DisplayName="Response Date" />
+            <pnp:FieldRef ID="afcc4a70-b023-4261-af58-80629e032f74" Name="MA_ResponseSummary" DisplayName="Response Summary" />
+            <pnp:FieldRef ID="e7184390-73b5-451d-8752-0758152812ef" Name="MA_CredentialType" DisplayName="Credential Type" />
+            <pnp:FieldRef ID="d4f2a734-5cab-4270-9c00-2170c57905b7" Name="MA_Reference" DisplayName="Reference" />
+            <pnp:FieldRef ID="b6857615-3cf3-4c90-b16b-6a28c0030059" Name="MA_IsTrial" DisplayName="Trial / Demo" />
+            <pnp:FieldRef ID="a92fe01b-825f-4831-b045-3ec4eaba15ee" Name="MA_RenewalTerm" DisplayName="Renewal Term" />
+            <pnp:FieldRef ID="3365fe59-dd60-4ba3-b6d0-4482310c3a89" Name="MA_RequirementExpirationDate" DisplayName="ExpirationDate" />
+          </pnp:FieldRefs>
+         
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

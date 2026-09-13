@@ -1,0 +1,427 @@
+@import "../../common/styles/common.module.scss";
+
+@font-face {
+  font-family: "Harmonia";
+  src: url("../../common/assets/fonts/harmonia/Poppins-Light.ttf") format("truetype");
+
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Harmonia";
+  src: url("../../common/assets/fonts/harmonia/Poppins-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Harmonia";
+  src: url("../../common/assets/fonts/harmonia/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Harmonia";
+  src: url("../../common/assets/fonts/harmonia/Poppins-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Harmonia";
+  src: url("../../common/assets/fonts/harmonia/Poppins-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Harmonia";
+  src: url("../../common/assets/fonts/harmonia/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Harmonia";
+  src: url("../../common/assets/fonts/harmonia/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Harmonia";
+  src: url("../../common/assets/fonts/harmonia/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+// #SuiteNavWrapper
+:global {
+
+  #spCommandBar,
+  #CommentsWrapper,
+  #spLeftNav,
+  #sp-appBar,
+  .od-Files-topBar,
+  #CommentsWrapper,
+  .commandBarPlaceHolder,
+  .commandBarWrapper {
+    display: none !important;
+  }
+
+
+  .ms-ContextualMenu-linkContent {
+    max-width: 100% !important;
+    height: -webkit-fill-available !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #052d53 !important;
+  }
+
+  .ms-Icon root-90 css-100 ms-Button-menuIcon menuIcon-171 .ms-ContextualMenu-itemText {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #052d53 !important;
+  }
+
+  *.ms-CommandBar-menuHost {
+    .ms-ContextualMenu-item {
+      background-color: #f1f1f1 !important;
+      border-bottom: 1px solid #d9d9d9 !important;
+      font-size: 9pt !important;
+    }
+
+    .ms-ContextualMenu-item:hover .ms-ContextualMenu-link {
+      //background: url(/tsm/SiteAssets/Theme/TopNavBg.png) repeat-x 0 0 !important;
+      //background-color: #007DBA !important;
+      // background: -moz-linear-gradient(top, #007dba 50%, #006494 100%);
+      // background: -webkit-gradient(linear, left top, left bottom, from(#007dba), to(#006494));
+      background-image: linear-gradient(to right top, #007dba, #1883c1, #278ac8, #3290cf, #3c97d6);
+      color: #f4f4f4 !important;
+      font-weight: bold;
+      border: 1px soild blue !important;
+    }
+  }
+
+
+
+  .ms-compositeHeader {
+    //background-image: url(/tsm/SiteAssets/SitePages/Shared/low-contrast-linen.png);
+    background-color: transparent;
+    padding: 0 32px !important;
+  }
+
+
+  div[data-automation-id="CanvasZone"] {
+    .CanvasSection {
+      padding: 0 !important;
+    }
+
+    .ControlZone {
+      padding: 0 !important;
+    }
+  }
+
+  
+
+  .CanvasZoneSectionContainer {
+    max-width: unset !important;
+    // width: 90%;
+    margin: auto;
+  }
+
+  .spAppAndPropertyPanelContainer {
+    padding-bottom: 0 !important;
+  }
+
+  body {
+    overflow-y: hidden;
+  }
+
+  .CanvasZoneContainer,
+  .SPCanvas,
+  div[class^="commentsWrapper"],
+  div[class^="canvasSpacerSection"] {
+    background-color: transparent;
+  }
+
+  .tooltipButton:hover {
+    background: transparent;
+  }
+
+  div[data-automation-id="pageTitleInput"] {
+    font-size: 32px;
+  }
+
+  div[data-automation-id="CanvasZone"] {
+    background-color: transparent;
+  }
+
+  div[id="spSiteHeader"] {
+    display: none !important;
+  }
+
+  i[data-icon-name="ChevronDown"] {
+    font-size: small !important;
+    font-weight: bold !important;
+  }
+
+  /*span[data-automation-id="splitbuttonprimary"] {
+    font-size: small !important;
+    font-weight: bold !important;
+  }*/
+
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    margin: 0;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+    //border-radius:10px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 1px;
+  }
+
+  :hover::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  div[class*='dropzone']:focus {
+    outline: unset;
+  }
+
+  div[class*='picture-picker'] {
+    div[class*='dropzone'] {
+      background-color: #fff !important;
+      width: calc(100% - 10px);
+      height: 56px !important;
+      line-height: 56px !important;
+      border: 1px solid #a6a6a6 !important;
+      font-weight: 400 !important;
+      padding: 5px !important;
+      vertical-align: middle;
+      display: inline-block;
+      cursor: pointer;
+
+      button {
+        vertical-align: middle;
+      }
+    }
+  }
+
+  div[class*='activeStyle'] {
+    border-color: #2196f3 !important;
+  }
+
+  div[class*='picture-preview'] {
+    display: inline-block;
+    max-width: calc(100% - 410px);
+    vertical-align: middle;
+    background-color: #fff !important;
+    height: 56px !important;
+    line-height: 56px !important;
+    border: 1px solid #a6a6a6 !important;
+    font-weight: 400 !important;
+    padding: 5px !important;
+    margin-left: 10px;
+  }
+
+  div[class*='picture-preview'] img {
+    max-height: 56px;
+    max-width: 100%;
+  }
+
+  div[class*='picture-picker'] {
+    display: inline-block;
+  }
+
+  div[class*='file-picker'] {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  div[class*='picture-picker'] i {
+    margin-left: 0;
+  }
+
+  div[class*=ms-MessageBar--severeWarning] {
+    padding: 10px !important;
+    width: calc(100% - 20px) !important;
+  }
+
+  div[class*='modalContainer'] {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    margin: auto;
+    width: 50%;
+  }
+
+  div[class*='modalBody'] {
+    flex: 4 4 auto;
+    padding: 0px 24px 24px;
+    overflow-y: auto;
+  }
+
+  div[class*='modalHeader'] {
+    flex: 1 1 auto;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 600;
+    padding: 0 12px;
+    max-width: 1000px;
+
+    button[class*='iconButton'] {
+      margin-left: auto;
+      margin-top: 4px;
+      margin-right: 2px;
+    }
+  }
+
+  table {
+    border-spacing: 0px;
+    border-collapse: separate;
+  }
+
+  .ms-Breadcrumb-listItem:first-of-type {
+    .ms-Breadcrumb-itemLink {
+      padding-left: 0 !important;
+    }
+  }
+  .ms-Breadcrumb-listItem {
+    margin-bottom: 10px;
+    .ms-Breadcrumb-itemLink {
+      line-height: unset !important;
+    }
+  }
+  .ms-Breadcrumb{
+    margin:0;
+  }
+
+}
+
+
+
+.appNavigation {
+  width: calc(100% - 250px) !important;
+  background: transparent !important;
+  padding: 25px 0px !important;
+
+  :global {
+    .ms-CommandBar {
+      height: 35px;
+      width: auto;
+      background: transparent !important;
+      font-weight: bold !important;
+    }
+
+    .ms-Button-label {
+      font-size: 15px !important;
+      font-weight: 700 !important;
+      color: #052d53 !important;
+    }
+
+    .ms-CommandBarItem {
+      border: none;
+      height: 35px;
+      padding: 0;
+      font-weight: bold !important;
+    }
+
+    .ms-Button-label,
+    .ms-Icon {
+      color: #052d53 !important;
+    }
+
+    .ms-CommandBarItem-link:not(:hover),
+    .itemLinkIsExpanded:not(:hover) {
+      background-color: inherit !important;
+    }
+
+    .ms-ContextualMenu-linkContent,
+    .ms-ContextualMenu-itemText {
+      font-size: 15px !important;
+      font-weight: bold !important;
+      color: #052d53 !important;
+      text-align: center;
+    }
+  }
+}
+
+.appHeader {
+  display: block !important;
+
+  .topBar {
+    background: url("../../common/assets/images/body-map-bg.gif") repeat-x 0 0 !important;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .appInfo {
+    border-bottom-style: none !important;
+    background-color: transparent;
+    padding: 0 32px !important;
+    position: relative;
+    box-sizing: border-box;
+
+    &Container {
+      display: flex;
+    }
+
+    &Logo {
+      margin-right: 0 !important;
+
+      &Outer {
+        border: none;
+      }
+
+      &Inner {
+        width: auto;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center left;
+      }
+
+      &Container {
+        max-height: 50px;
+        max-width: 50px;
+
+        img {
+          max-width: 50px;
+          max-height: 50px;
+        }
+      }
+    }
+
+    &Title {
+      color: black;
+      font-size: 20px;
+      padding-top: 30px;
+      margin-left: 20px;
+    }
+  }
+}

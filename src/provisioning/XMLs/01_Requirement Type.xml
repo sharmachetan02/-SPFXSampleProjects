@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-DD0E073FA8A943539C46D42EA458B16C">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-DD0E073FA8A943539C46D42EA458B16C" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x01009D7EAC70C22343469250318CB4C5759B" Name="MA_RequirementType" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="449559e0-92ac-402b-9fca-3f8c80b50a2f" Name="MA_RequirementCategory" UpdateChildren="true" />
+            <pnp:FieldRef ID="8aab01a5-fe70-4c23-a1dc-702beeab25e4" Name="MA_RequirementVertical" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Requirement Type" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/requirement_type" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/requirement_type/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/requirement_type/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/requirement_type/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01009D7EAC70C22343469250318CB4C5759B" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{C36375E2-6C34-4F61-88CD-B125480454CC}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/requirement_type/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_RequirementCategory" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="449559e0-92ac-402b-9fca-3f8c80b50a2f" Name="MA_RequirementCategory" DisplayName="Category" />
+            <pnp:FieldRef ID="8aab01a5-fe70-4c23-a1dc-702beeab25e4" Name="MA_RequirementVertical" DisplayName="Requirement Vertical" />
+          </pnp:FieldRefs>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Landing Rights</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">Space / NW</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Space &amp; NW</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Network Authorization</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">Space / NW</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Space &amp; NW</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Capacity Authorization</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">Space / NW</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Space &amp; NW</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ku Band Spectrum Authorization (Fixed + Land Mobility)</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Land</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Mobility;#Land Fixed</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ku Band Spectrum Authorization Fixed</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Land</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ku Band Spectrum Authorization Land Mobility </pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Land</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Mobility</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">NOL Letters Land Mobility</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Land</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Mobility</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ku Band Spectrum Authorization Aviation National Airline</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Aviation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ku Band Spectrum Authorization Aviation Foreign Airline</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Aviation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ku Band Spectrum Authorization Aviation Overflight Only</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Aviation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Aviation Safety Certification</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Aviation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Aviation ITU Compliance</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Aviation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Airport Clearence Permission</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Aviation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">NOL Letters Aviation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Aviation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ku Band Spectrum Authorization Maritime National Ships</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Maritime</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Maritime</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Ku Band Spectrum Authorization Maritime Foreign Ships</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Maritime</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Maritime</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Maritime ITU Compliance</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Maritime</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Maritime</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">NOL Letters Maritime</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT Maritime</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Maritime</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">UT Authorization</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">National Regulations in Place</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">UT Regulations in Place</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Submission of Homologation / Type Approval</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Export Control</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Import License</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Equipment Standards</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Authorization for Reference / Monitor UT</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Business License</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">DP in Place</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">UT General</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Maritime;#Aviation</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">SNP Spectrum / Operation License</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">SNP</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Reference UT License</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">SNP</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Construction License</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">SNP</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Export Control</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">SNP</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Import License</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">SNP</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Type Approval</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">SNP</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Health and Safety Approval</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">SNP</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">SNP Space Segment</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">SNP</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Incorporation of Local Entity</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">Legal</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Aviation;#Maritime;#Space &amp; NW;#SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Local Entity Registration</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">Legal</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Aviation;#Maritime;#Space &amp; NW;#SNP</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Local Legal Representative</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementCategory">Legal</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementVertical">Land Fixed;#Land Mobility;#Aviation;#Maritime;#Space &amp; NW;#SNP</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

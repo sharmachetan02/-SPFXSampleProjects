@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "nav-tiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/navTiles/NavTilesWebPart.js",
+          "manifest": "./src/webparts/navTiles/NavTilesWebPart.manifest.json"
+        }
+      ]
+    },
+    "generic-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/genericForm/GenericFormWebPart.js",
+          "manifest": "./src/webparts/genericForm/GenericFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "generic-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/genericView/GenericViewWebPart.js",
+          "manifest": "./src/webparts/genericView/GenericViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "generic-datasheet-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/genericDatasheet/GenericDatasheetWebPart.js",
+          "manifest": "./src/webparts/genericDatasheet/GenericDatasheetWebPart.manifest.json"
+        }
+      ]
+    },
+    "app-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/appCustomizer/AppCustomizer.js",
+          "manifest": "./src/extensions/appCustomizer/AppCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "NavTilesWebPartStrings": "lib/webparts/navTiles/loc/{locale}.js",
+    "GenericFormWebPartStrings": "lib/webparts/genericform/loc/{locale}.js",
+    "GenericViewPartStrings": "lib/webparts/genericview/loc/{locale}.js",
+    "GenericDatasheetStrings": "lib/webparts/genericdatasheet/loc/{locale}.js",
+    "RichTextStrings": "lib/common/components/RichText/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "AppCustomizerStrings": "lib/extensions/appCustomizer/loc/{locale}.js"
+  }
+}

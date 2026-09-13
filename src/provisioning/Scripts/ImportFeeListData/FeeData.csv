@@ -1,0 +1,5 @@
+Title,Type,Cost Type,Category,Summary,Issuer Type,Currency,Po Type,Related Item,Issuer,Due Date,Repeating Fee,VAT,VAT Free,VAT Rate,Status,Comments
+Fee1,SNP,CAPEX,License,Annual SNP spectrum fee,Regulator,Euro,PO,Partener SNP,ARCEP,31-12-2026,Yes,1000,0,20,Active,Primary recurring fee
+Fee2,MA Requirement,OPEX,Administrative,Compliance filing cost,Law Firm,United States dollar,Non-PO,MA Legal Requirement2,LF1,31-03-2027,No,500,50,10,Active,One-time compliance cost
+Fee3,SNP,OPEX,Commercial,Teleport operational fee,Teleport Partner,Sterling ,PO,UK SNP,Teleport Partner Alpha,30-06-2027,Yes,750,0,15,Inactive,Linked to partner operations
+Fee4,MA Requirement,CAPEX,License,Requirement license renewal,Organization,Euro,PO,MA Requirement Credential3,Ofcom,15-01-2028,No,1200,100,5,Revoked,Archived fee entry

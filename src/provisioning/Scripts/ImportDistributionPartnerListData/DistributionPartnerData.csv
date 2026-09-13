@@ -1,0 +1,4 @@
+Title,Status,Legal Address,Summary,Portal,Comments
+Distribution Partner Alpha,Active,"Zone Industrielle A, Paris, France",Primary distribution partner for Western Europe,https://example.com/alpha,Regional operator with full coverage
+Distribution Partner Beta,Inactive,"Via Roma 42, Milan, Italy",Secondary partner used for resilience scenarios,https://example.com/beta,Backup operations partner
+Distribution Partner Gamma,Revoked,"1 Harbour Road, London, UK",Contract ended due to compliance changes,https://example.com/gamma,Former contracted partner

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-CEDEFF135EBC4EDE85024E38F226D8FA">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-CEDEFF135EBC4EDE85024E38F226D8FA" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>	  
+        <pnp:ContentType ID="0x0100518D373795382B4BAC75508AC0E73D33" Name="MA_Readiness" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x0100518D373795382B4BAC75508AC0E73D3301" Name="MA_ReadinessCountry" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="70e313e3-b7f3-4cda-ac2f-4f881d351e8f" Name="MA_ReadinessRAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="2304cd22-3707-4273-9393-9000f13fb311" Name="MA_ReadinessEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="e0902b70-db26-4bec-b723-19fc963d309b" Name="MA_ReadinessEffectiveDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="d322c9dd-14ad-43ed-9621-ce1731829f41" Name="MA_ReadinessComments" UpdateChildren="true" />
+            <pnp:FieldRef ID="1819a008-689b-4cd9-9b89-e5381769a214" Name="MA_SpaceRAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="ea180cea-0016-42ab-a269-0000336e8b7e" Name="MA_SpaceEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="8b583305-db4e-447e-97f2-d913b6dad558" Name="MA_SpaceEffectiveDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="e3fc8667-f93e-4f34-bfb8-9d262fad25a4" Name="MA_SpaceComments" UpdateChildren="true" />
+            <pnp:FieldRef ID="df7196df-c1f2-47d9-b8fe-5d7f79737245" Name="MA_LandFixedRAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="a26c04d8-1bd2-466d-b5e2-97281c051ad0" Name="MA_LandFixedEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="d5d98f8a-3824-46fd-afb0-de3c5dc6c829" Name="MA_LandFixedEffectiveDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="90f7e171-ca31-4803-820d-7b6fd6ebcc17" Name="MA_LandFixedComments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a78e5670-6c21-4f07-b455-7d99da2d3472" Name="MA_LandMobilityRAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="f1d0709f-a1f1-4f6d-aa84-88f15a244b76" Name="MA_LandMobilityEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="521bda5f-6b70-4f81-a83d-100b7cb660c5" Name="MA_LandMobilityEffectiveDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="4c843960-3671-4d03-a10e-567d097cbcac" Name="MA_LandMobilityComments" UpdateChildren="true" />
+            <pnp:FieldRef ID="9fa75359-98da-44b7-ab21-122fe9f1d0be" Name="MA_MaritimeRAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="09394ec0-bcf0-4845-85ca-4d32ea4955af" Name="MA_MaritimeEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="4ff94127-b375-4878-ae30-de84c42fcf15" Name="MA_MaritimeEffectiveDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="14cfc526-3400-4ea9-b998-5eb33004fe9a" Name="MA_MaritimeComments" UpdateChildren="true" />
+            <pnp:FieldRef ID="c399eb7b-7511-44a2-86b9-3e9469c420b9" Name="MA_AviationRAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="c829b77e-0dfc-4849-aea6-0c21bd7a1d97" Name="MA_AviationEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="0256b64c-9819-41b2-9c07-cf99123301f7" Name="MA_AviationEffectiveDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="34e9af88-fee7-4cd8-bfdc-616087dd9b0a" Name="MA_AviationComments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x0100518D373795382B4BAC75508AC0E73D3302" Name="MA_ReadinessSNP" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" UpdateChildren="true" />
+            <pnp:FieldRef ID="f27a15a4-d6ee-4016-b7d0-896ae353a1f7" Name="MA_SNPRAGStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="964b7b1a-0c2f-46f5-9d38-b9b6d7bf8027" Name="MA_SNPEstimatedDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="a5c733a3-0c12-45d1-b0ef-3ca552b232a4" Name="MA_SNPEffectiveDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="5fe9e9ba-a20c-4ddb-8568-dd0351c24a61" Name="MA_SNPComments" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Market Readiness" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/ma_readiness" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/ma_readiness/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/ma_readiness/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/ma_readiness/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100518D373795382B4BAC75508AC0E73D3301" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0100518D373795382B4BAC75508AC0E73D3302" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{FB9CC8F2-F666-4B18-B066-0C8EE8CD8E49}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/ma_readiness/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="27cd1e12-c1b7-4781-8c30-f5ad335a52eb" Name="MA_ReadinessResponsible" DisplayName="Readiness Responsible" />
+            <pnp:FieldRef ID="70e313e3-b7f3-4cda-ac2f-4f881d351e8f" Name="MA_ReadinessRAGStatus" DisplayName="All Verticals RAG Status" />
+            <pnp:FieldRef ID="2304cd22-3707-4273-9393-9000f13fb311" Name="MA_ReadinessEstimatedDate" DisplayName="All Verticals Estimated Date" />
+            <pnp:FieldRef ID="e0902b70-db26-4bec-b723-19fc963d309b" Name="MA_ReadinessEffectiveDate" DisplayName="All Verticals Effective Date" />
+            <pnp:FieldRef ID="d322c9dd-14ad-43ed-9621-ce1731829f41" Name="MA_ReadinessComments" DisplayName="All Verticals Comments" />
+            <pnp:FieldRef ID="1819a008-689b-4cd9-9b89-e5381769a214" Name="MA_SpaceRAGStatus" DisplayName="Space &amp; NW RAG Status" />
+            <pnp:FieldRef ID="ea180cea-0016-42ab-a269-0000336e8b7e" Name="MA_SpaceEstimatedDate" DisplayName="Space &amp; NW Estimated Date" />
+            <pnp:FieldRef ID="8b583305-db4e-447e-97f2-d913b6dad558" Name="MA_SpaceEffectiveDate" DisplayName="Space &amp; NW Effective Date" />
+            <pnp:FieldRef ID="e3fc8667-f93e-4f34-bfb8-9d262fad25a4" Name="MA_SpaceComments" DisplayName="Space &amp; NW Comments" />
+            <pnp:FieldRef ID="df7196df-c1f2-47d9-b8fe-5d7f79737245" Name="MA_LandFixedRAGStatus" DisplayName="Land Fixed RAG Status" />
+            <pnp:FieldRef ID="a26c04d8-1bd2-466d-b5e2-97281c051ad0" Name="MA_LandFixedEstimatedDate" DisplayName="Land Fixed Estimated Date" />
+            <pnp:FieldRef ID="d5d98f8a-3824-46fd-afb0-de3c5dc6c829" Name="MA_LandFixedEffectiveDate" DisplayName="Land Fixed Effective Date" />
+            <pnp:FieldRef ID="90f7e171-ca31-4803-820d-7b6fd6ebcc17" Name="MA_LandFixedComments" DisplayName="Land Fixed Comments" />
+            <pnp:FieldRef ID="a78e5670-6c21-4f07-b455-7d99da2d3472" Name="MA_LandMobilityRAGStatus" DisplayName="Land Mobility RAG Status" />
+            <pnp:FieldRef ID="f1d0709f-a1f1-4f6d-aa84-88f15a244b76" Name="MA_LandMobilityEstimatedDate" DisplayName="Land Mobility Estimated Date" />
+            <pnp:FieldRef ID="521bda5f-6b70-4f81-a83d-100b7cb660c5" Name="MA_LandMobilityEffectiveDate" DisplayName="Land Mobility Effective Date" />
+            <pnp:FieldRef ID="4c843960-3671-4d03-a10e-567d097cbcac" Name="MA_LandMobilityComments" DisplayName="Land Mobility Comments" />
+            <pnp:FieldRef ID="9fa75359-98da-44b7-ab21-122fe9f1d0be" Name="MA_MaritimeRAGStatus" DisplayName="Maritime RAG Status" />
+            <pnp:FieldRef ID="09394ec0-bcf0-4845-85ca-4d32ea4955af" Name="MA_MaritimeEstimatedDate" DisplayName="Maritime Estimated Date" />
+            <pnp:FieldRef ID="4ff94127-b375-4878-ae30-de84c42fcf15" Name="MA_MaritimeEffectiveDate" DisplayName="Maritime Effective Date" />
+            <pnp:FieldRef ID="14cfc526-3400-4ea9-b998-5eb33004fe9a" Name="MA_MaritimeComments" DisplayName="Maritime Comments" />
+            <pnp:FieldRef ID="c399eb7b-7511-44a2-86b9-3e9469c420b9" Name="MA_AviationRAGStatus" DisplayName="Aviation RAG Status" />
+            <pnp:FieldRef ID="c829b77e-0dfc-4849-aea6-0c21bd7a1d97" Name="MA_AviationEstimatedDate" DisplayName="Aviation Estimated Date" />
+            <pnp:FieldRef ID="0256b64c-9819-41b2-9c07-cf99123301f7" Name="MA_AviationEffectiveDate" DisplayName="Aviation Effective Date" />
+            <pnp:FieldRef ID="34e9af88-fee7-4cd8-bfdc-616087dd9b0a" Name="MA_AviationComments" DisplayName="Aviation Comments" />
+            <pnp:FieldRef ID="f27a15a4-d6ee-4016-b7d0-896ae353a1f7" Name="MA_SNPRAGStatus" DisplayName="SNP RAG Status" />
+            <pnp:FieldRef ID="964b7b1a-0c2f-46f5-9d38-b9b6d7bf8027" Name="MA_SNPEstimatedDate" DisplayName="SNP Estimated Date" />
+            <pnp:FieldRef ID="a5c733a3-0c12-45d1-b0ef-3ca552b232a4" Name="MA_SNPEffectiveDate" DisplayName="SNP Effective Date" />
+            <pnp:FieldRef ID="5fe9e9ba-a20c-4ddb-8568-dd0351c24a61" Name="MA_SNPComments" DisplayName="SNP Comments" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

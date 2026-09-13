@@ -1,0 +1,5 @@
+Title,Fee(s),Contact(s),Summary,Charged By,Currency,Related Authority,Due Date,Payment Date,VAT,VAT Free,VAT Rate,Status,Comments
+Payment1,"Fee1,Fee2",Alejandra Ornes;Amr Ashour,Annual regulatory payment,Regulator,Euro,ARCEP,31-12-2026,15-12-2026,1000,0,20,Paid,First batch payment
+Payment2,Fee2,Ellen Robin,Legal service fee payment,Law Firm,United States dollar,LF1,31-03-2027,20-03-2027,500,50,10,In Process,Pending legal clearance
+Payment3,Fee3,"Musavvir Shaikh,Somanathan Munusamy",Teleport partner operations payment,Teleport Partner,Sterling,Teleport Partner Alpha,30-06-2027,,750,0,15,Partially Paid,Awaiting balance
+Payment4,Fee4,Tony Azzarelli|Chetan Sharma,Regulatory compliance payment,Organization,Euro,Ofcom,15-01-2028,10-01-2028,1200,100,5,Paid,Closed entry

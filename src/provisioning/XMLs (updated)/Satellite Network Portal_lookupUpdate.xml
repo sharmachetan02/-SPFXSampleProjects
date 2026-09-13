@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-FBD184FCC18E40B6BF8C4C1F65631457">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-FBD184FCC18E40B6BF8C4C1F65631457" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x01007DBD40A3236C4447848111DE54A6D863" Name="MA_SNP" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="aad202a4-d653-4898-9a85-5cd6a4b7f3a1" Name="MA_Country" UpdateChildren="true" />
+            <pnp:FieldRef ID="7fe79dfb-30f6-493d-95c3-04d062aa4670" Name="MA_City" UpdateChildren="true" />
+            <pnp:FieldRef ID="12e19284-e3dd-4d61-8ae8-933b0251e49e" Name="MA_SNPStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01007DBD40A3236C4447848111DE54A6D86301" Name="MA_Stargate" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="aad202a4-d653-4898-9a85-5cd6a4b7f3a1" Name="MA_Country" UpdateChildren="true" />
+            <pnp:FieldRef ID="7fe79dfb-30f6-493d-95c3-04d062aa4670" Name="MA_City" UpdateChildren="true" />
+            <pnp:FieldRef ID="12e19284-e3dd-4d61-8ae8-933b0251e49e" Name="MA_SNPStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01007DBD40A3236C4447848111DE54A6D86302" Name="MA_EutelsatSNP" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="aad202a4-d653-4898-9a85-5cd6a4b7f3a1" Name="MA_Country" UpdateChildren="true" />
+            <pnp:FieldRef ID="7fe79dfb-30f6-493d-95c3-04d062aa4670" Name="MA_City" UpdateChildren="true" />
+            <pnp:FieldRef ID="12e19284-e3dd-4d61-8ae8-933b0251e49e" Name="MA_SNPStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            
+            <pnp:FieldRef ID="780080af-51d8-4e10-af26-6c29bdd2c930" Name="MA_EutelsatEntity" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x01007DBD40A3236C4447848111DE54A6D86303" Name="MA_PartnerSNP" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="aad202a4-d653-4898-9a85-5cd6a4b7f3a1" Name="MA_Country" UpdateChildren="true" />
+            <pnp:FieldRef ID="7fe79dfb-30f6-493d-95c3-04d062aa4670" Name="MA_City" UpdateChildren="true" />
+            <pnp:FieldRef ID="12e19284-e3dd-4d61-8ae8-933b0251e49e" Name="MA_SNPStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            
+            <pnp:FieldRef ID="3a9496cb-5f84-4ff7-8d83-b952cb8ef34a" Name="MA_TeleportPartner" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Satellite Network Portal" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/snp" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/snp/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/snp/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/snp/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01007DBD40A3236C4447848111DE54A6D86301" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01007DBD40A3236C4447848111DE54A6D86302" />
+            <pnp:ContentTypeBinding ContentTypeID="0x01007DBD40A3236C4447848111DE54A6D86303" />
+          
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{6DCA7E6C-AF31-4403-9293-FDECFD76771C}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/snp/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created" Ascending="FALSE" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Country" />
+                <FieldRef Name="MA_City" />
+                <FieldRef Name="MA_SNPStatus" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{3289A03E-21F3-431C-AA96-AE2A310FD6FF}" Type="HTML" DisplayName="Stargates" Url="{site}/Lists/snp/Stargates.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created" Ascending="FALSE" />
+                </OrderBy>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_Stargate</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Country" />
+                <FieldRef Name="MA_City" />
+                <FieldRef Name="MA_SNPStatus" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{F86B12B3-1761-4856-90CC-4F5EDC8B7433}" Type="HTML" DisplayName="Eutelsat SNPs" Url="{site}/Lists/snp/EutelsatSNPs.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created" Ascending="FALSE" />
+                </OrderBy>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_EutelsatSNP</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_City" />
+                <FieldRef Name="MA_SNPStatus" />
+                <FieldRef Name="MA_Comments" />
+                <FieldRef Name="MA_EutelsatEntity" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{4D2B1B29-A2A2-4123-A085-6F3A8634FF68}" Type="HTML" DisplayName="Partner SNPs" Url="{site}/Lists/snp/PartnerSNPs.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Created" Ascending="FALSE" />
+                </OrderBy>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_PartnerSNP</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_City" />
+                <FieldRef Name="MA_SNPStatus" />
+                <FieldRef Name="MA_Comments" />
+                <FieldRef Name="MA_TeleportPartner" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="7fe79dfb-30f6-493d-95c3-04d062aa4670" Name="MA_City" DisplayName="City" />
+            <pnp:FieldRef ID="12e19284-e3dd-4d61-8ae8-933b0251e49e" Name="MA_SNPStatus" DisplayName="Status" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="aad202a4-d653-4898-9a85-5cd6a4b7f3a1" Name="MA_Country" DisplayName="Country" />
+            <pnp:FieldRef ID="780080af-51d8-4e10-af26-6c29bdd2c930" Name="MA_EutelsatEntity" DisplayName="Eutelsat Entity" />
+            <pnp:FieldRef ID="3a9496cb-5f84-4ff7-8d83-b952cb8ef34a" Name="MA_TeleportPartner" DisplayName="Teleport Partner" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

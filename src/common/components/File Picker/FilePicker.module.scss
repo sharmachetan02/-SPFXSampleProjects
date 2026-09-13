@@ -1,0 +1,57 @@
+div[class*='file-picker'] {
+  div[class*='dropzone'] {
+    background-color: #fff !important;
+    height: 48px !important;
+    line-height: 48px !important;
+    border: 1px solid #a6a6a6 !important;
+    font-weight: 400 !important;
+    padding: 0 5px !important;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    width: calc(100% - 10px);
+
+    &:hover {
+      border: 1px solid #000;
+    }
+
+    button {
+      vertical-align: middle;
+    }
+  }
+
+  div[class*='dropzone'].disabled {
+    background-color: #F3F2F1 !important;
+  }
+
+}
+
+
+.attachement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:5px;
+  margin-top: 5px;
+  &Text {
+    vertical-align: middle;
+    display: inline-block;
+    color:#303030;
+  }
+  .msButtonIcon {
+    width: 20px;
+    height: 20px;
+    background-color: unset;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+  .msButtonIcon:hover {
+    background-color: unset;
+  }
+}
+.dropzoneLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}

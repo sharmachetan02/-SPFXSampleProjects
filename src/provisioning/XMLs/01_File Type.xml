@@ -1,0 +1,278 @@
+﻿<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-69EE98B5AB4A4D289BCE69719FCF8786">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-69EE98B5AB4A4D289BCE69719FCF8786" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x010093B11264E9D0A84CBBCE6DF97422F5C5" Name="MA_DocumentType" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+           
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="d3ef5fba-1276-4e25-bf4b-1fbc8327b631" Name="MA_DocumentCategory" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="File Type" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/file_type" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/file_type/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/file_type/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/file_type/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x010093B11264E9D0A84CBBCE6DF97422F5C5" Default="true" />
+          
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{5B3CA346-48DE-4783-B5A8-1992CFB0E614}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/file_type/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_DocumentCategory" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="d3ef5fba-1276-4e25-bf4b-1fbc8327b631" Name="MA_DocumentCategory" DisplayName="Category" />
+          </pnp:FieldRefs>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Attachment</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">General</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Appendix</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">General</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Presentation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">General</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Summary / regular report</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">General</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Map data</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">General</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Picture / Photograph</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">General</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Memo</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">General</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Press Release</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">General</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Meeting Minutes</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Meeting</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Meeting Summary</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Meeting</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Meeting Agenda</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Meeting</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Service Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Business Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Distribution Partnership Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Coordination Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Assistance Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Acceptance Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Support Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Loan Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Lease Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Non-disclosure agreement (NDA)</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Power of attorney</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Waiver for Country Status List</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sub-licence Agreement</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Legal</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Business Report</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Business</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Business Proposal</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Business</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Business Plan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Business</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Strategic plan</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Business</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Market Analysis</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Business</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Financial report</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Budget</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Request for payment</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Fee simulation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Invoice</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tax Information</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tax Invoice</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Tax Return</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Payment receipt</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Proof of payment</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bank Information</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Bankruptcy</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Order</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Financial</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Declaration of conformity</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Regulatory / Compliance</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Compliance report</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Regulatory / Compliance</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Compliance waiver</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Regulatory / Compliance</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Certification</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Regulatory / Compliance</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Law / regulation</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Regulatory / Compliance</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Policy / procedure</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Regulatory / Compliance</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Regulatory Filing</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Regulatory / Compliance</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Risk Assessment</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Regulatory / Compliance</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Test Report</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Equipment Parameters</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Spectrum Parameters</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Technical specification</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Network description</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Guide / Manual</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Analysis</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Coverage Map</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Environmental Impact Assessment</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_DocumentCategory">Technical</pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+         
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

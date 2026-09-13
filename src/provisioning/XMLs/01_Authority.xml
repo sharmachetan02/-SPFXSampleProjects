@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-C90355775BE247D986CE6146B95F167F">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-C90355775BE247D986CE6146B95F167F" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+	  <pnp:ContentType ID="0x0100DD016807C9F8854299FFFF08E0D9D2C5" Name="MA_Authority" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="c042a256-787d-4a6f-8a8a-cf6ab767f12d" Name="ContentType" UpdateChildren="true" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" UpdateChildren="true" />
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="32160c64-800c-4c27-bde4-94d8468ccde1" Name="MA_Portal" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x0100DD016807C9F8854299FFFF08E0D9D2C501" Name="MA_Regulator" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" UpdateChildren="true" />
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="32160c64-800c-4c27-bde4-94d8468ccde1" Name="MA_Portal" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x0100DD016807C9F8854299FFFF08E0D9D2C502" Name="MA_Administration" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" UpdateChildren="true" />
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="32160c64-800c-4c27-bde4-94d8468ccde1" Name="MA_Portal" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+        <pnp:ContentType ID="0x0100DD016807C9F8854299FFFF08E0D9D2C503" Name="MA_Organization" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+          
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" UpdateChildren="true" />
+
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="32160c64-800c-4c27-bde4-94d8468ccde1" Name="MA_Portal" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Authority" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/authority" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/authority/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/authority/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/authority/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+       <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100DD016807C9F8854299FFFF08E0D9D2C502" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0100DD016807C9F8854299FFFF08E0D9D2C501" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0100DD016807C9F8854299FFFF08E0D9D2C503" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{86B0AE8F-C11C-4885-A732-BA8B779F0675}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/authority/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="ContentType" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Address" />
+                <FieldRef Name="MA_Grouping" />
+                <FieldRef Name="MA_Portal" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{304EE4C8-FDDA-4B4B-8212-B3B3A58B9D4A}" Type="HTML" DisplayName="Regulators" Url="{site}/Lists/authority/Regulators.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_Regulator</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="ContentType" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Address" />
+                <FieldRef Name="MA_Grouping" />
+                <FieldRef Name="MA_Portal" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{370B6662-1D37-48E2-988E-DAC0219E25FE}" Type="HTML" DisplayName="Administrations" Url="{site}/Lists/authority/Administrations.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_Administration</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="ContentType" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Address" />
+                <FieldRef Name="MA_Grouping" />
+                <FieldRef Name="MA_Portal" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+            <View Name="{017D333C-F95F-49AE-AA57-E5CF4C50293F}" Type="HTML" DisplayName="Organization" Url="{site}/Lists/authority/Organization.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <Where>
+                  <Eq>
+                    <FieldRef Name="ContentType" />
+                    <Value Type="Computed">MA_Organization</Value>
+                  </Eq>
+                </Where>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="ContentType" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Address" />
+                <FieldRef Name="MA_Grouping" />
+                <FieldRef Name="MA_Portal" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" DisplayName="Legal Address" />
+            <pnp:FieldRef ID="4bb1e0fa-7e68-479b-9c4b-9a2ddc4da292" Name="MA_Grouping" DisplayName="Grouping" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="32160c64-800c-4c27-bde4-94d8468ccde1" Name="MA_Portal" DisplayName="Portal" />
+          </pnp:FieldRefs>
+      
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

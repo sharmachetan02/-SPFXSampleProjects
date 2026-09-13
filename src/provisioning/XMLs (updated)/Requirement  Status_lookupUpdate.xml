@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-A325B82F2BAA48ABA77C50DC8755ABDB">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-A325B82F2BAA48ABA77C50DC8755ABDB" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x01006F6BF916261E604EA83817F9B2B96B50" Name="MA_RequirementStatus" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="be3c14a7-16ff-42a1-a2e2-ebc4ba935c7a" Name="MA_RequirementType" UpdateChildren="true" />
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="79c09789-6107-428b-87c0-c62d375b21d9" Name="MA_RAGStatus" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Requirement Status" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/requirement_status" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/requirement_status/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/requirement_status/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/requirement_status/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01006F6BF916261E604EA83817F9B2B96B50" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{714C7772-94B4-45C4-A96F-D44F3D0E6FE6}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/requirement_status/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Title" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="MA_RequirementType" />
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_RAGStatus" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ColumnWidth>
+                <FieldRef Name="Requirement Type" width="147.272705078125" />
+              </ColumnWidth>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="79c09789-6107-428b-87c0-c62d375b21d9" Name="MA_RAGStatus" DisplayName="RAG Status" />
+            <pnp:FieldRef ID="be3c14a7-16ff-42a1-a2e2-ebc4ba935c7a" Name="MA_RequirementType" DisplayName="Requirement Type" />
+          </pnp:FieldRefs>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">license required/applied for</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RAGStatus">In Progress</pnp:DataValue>
+              <pnp:DataValue FieldName="MA_RequirementType">27</pnp:DataValue>
+              <pnp:DataValue FieldName="Order">600</pnp:DataValue>
+              <pnp:DataValue FieldName="FileLeafRef">6_.000</pnp:DataValue>
+              <pnp:DataValue FieldName="MetaInfo" />
+            </pnp:DataRow>
+          </pnp:DataRows>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

@@ -1,0 +1,16 @@
+/* eslint-disable max-len */
+import * as React from 'react';
+const HomeIcon: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = (prop) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" {...prop as React.SVGProps<SVGSVGElement>}>
+    <path d="M13.4333 3.4095L13.4335 3.40959L19.6544 8.54918C19.6544 8.54922 19.6545 8.54926 19.6545 8.5493C19.9391 8.78462 20.173 9.08894 20.3352 9.44134C20.4974 9.7939 20.5825 10.1833 20.5824 10.5795V10.5797V18.6564C20.5824 19.3479 20.3234 20.0026 19.8753 20.4786C19.4286 20.9531 18.8328 21.2105 18.2219 21.2105H5.77947C5.16853 21.2105 4.57275 20.9531 4.12608 20.4786C3.67797 20.0026 3.41895 19.3479 3.41895 18.6564V10.5797L3.41895 10.5796C3.41889 10.1834 3.50412 9.79394 3.66642 9.44138C3.82868 9.08892 4.06271 8.78458 4.34749 8.5493L3.87841 7.98153L4.34749 8.5493L10.5685 3.40959L10.5687 3.4095C10.9838 3.06638 11.488 2.88501 12.001 2.88501C12.514 2.88501 13.0182 3.06638 13.4333 3.4095Z" stroke="currentColor" strokeWidth="1.5"/>
+    <path d="M8.88867 17.5557H15.111" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+export default HomeIcon;
+
+
+
+
+
+
+

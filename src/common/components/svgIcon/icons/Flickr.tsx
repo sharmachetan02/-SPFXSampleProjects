@@ -1,0 +1,15 @@
+/* eslint-disable max-len */
+import * as React from 'react';
+const FlickrIcon: React.FunctionComponent<React.SVGProps<SVGSVGElement>> = (prop) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="46" height="45" viewBox="0 0 25 25" fill="white" {...prop as React.SVGProps<SVGSVGElement>}>
+    <path d="M12.501 0C5.59693 0 0 5.59693 0 12.501C0 19.405 5.59693 25.0019 12.501 25.0019C19.405 25.0019 25.0019 19.405 25.0019 12.501C25.0019 5.59693 19.4031 0 12.501 0ZM8.3498 15.4856C6.70074 15.4856 5.36515 14.15 5.36515 12.501C5.36515 10.8519 6.70074 9.5163 8.3498 9.5163C9.99886 9.5163 11.3344 10.8519 11.3344 12.501C11.3344 14.15 9.99886 15.4856 8.3498 15.4856ZM16.654 15.4856C15.0049 15.4856 13.6694 14.15 13.6694 12.501C13.6694 10.8519 15.0049 9.5163 16.654 9.5163C18.3031 9.5163 19.6387 10.8519 19.6387 12.501C19.6387 14.15 18.3031 15.4856 16.654 15.4856Z" fill="currentColor"/>
+  </svg>
+);
+export default FlickrIcon;
+
+
+
+
+
+
+

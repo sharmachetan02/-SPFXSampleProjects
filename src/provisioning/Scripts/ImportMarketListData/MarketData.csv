@@ -1,0 +1,4 @@
+Market,Country,Is Sanctioned,Sanction Category,Priority,Capacity,Comments,AOP Regions,Geo Regions,Global Regions
+France,France,No,,High,High,"Core European market",Western Europe,Europe,EMEA
+Iran,Iran,Yes,Comprehensive,High,Restricted,"Sanctioned market example",Middle East,Asia,APAC
+Brazil,Brazil,No,,Medium,Medium,"Growth market",Latin America,Americas,LATAM

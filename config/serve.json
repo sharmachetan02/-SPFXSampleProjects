@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://eutelsatgroup.sharepoint.com/sites/MADB-dev",
+      "customActions": {
+        "bf9877cf-0fa4-456d-be05-524d0dcbcd84": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {}
+        }
+      }
+    },
+    "prod": {
+      "pageUrl": "https://eutelsatgroup.sharepoint.com/sites/MADB",
+      "customActions": {
+        "bf9877cf-0fa4-456d-be05-524d0dcbcd84": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {}
+        }
+      }
+    },
+    "staging": {
+      "pageUrl": "https://eutelsatgroup.sharepoint.com/sites/MADB-test",
+      "customActions": {
+        "bf9877cf-0fa4-456d-be05-524d0dcbcd84": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {}
+        }
+      }
+    },
+    "dev": {
+      "pageUrl": "https://eutelsatgroup.sharepoint.com/sites/MADB-dev",
+      "customActions": {
+        "bf9877cf-0fa4-456d-be05-524d0dcbcd84": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {}
+        }
+      }
+    }
+  }
+}
+    
+

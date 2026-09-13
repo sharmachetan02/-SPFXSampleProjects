@@ -1,0 +1,38 @@
+{
+    "ENVIRONMENTS":{
+        "DEV":{
+            "TAXONOMY":{
+                "GROUPING_TERMSETID":"03cbec8b-e3b0-44b4-976f-f7c24d090a4c",
+                "NAVIGATION_TERMSETID":"c6dcff34-d84c-4dad-af68-53ee359cad79",
+                "NAVIGATION_CONTENT_TERMID":"b7ea439b-8b56-43d3-94ff-51c8791f9362"
+            },
+            "SITE":{
+                "ROOT_WEB_URL":"https://eutelsatgroup.sharepoint.com/sites/MADB-Dev",
+                "SITE_TITLE":"MADB Dev"
+            }
+        },
+        "STAGING":{
+            "TAXONOMY":{
+                "GROUPING_TERMSETID":"cbaee0bb-058b-4287-bb63-c5ed53d51515",
+                "NAVIGATION_TERMSETID":"88e9c987-1f37-4343-a16d-2d7fb67d7b86",
+                "NAVIGATION_CONTENT_TERMID":"b43a88b6-c5af-472f-86a7-1b1b6ea50b15"          
+            },
+            "SITE":{
+                "ROOT_WEB_URL":"https://eutelsatgroup.sharepoint.com/sites/MADB-Test",
+                "SITE_TITLE":"MADB Test"
+
+            }
+        },
+        "PROD":{
+            "TAXONOMY":{
+                "GROUPING_TERMSETID":"03cbec8b-e3b0-44b4-976f-f7c24d090a4c",
+                "NAVIGATION_TERMSETID":"c6dcff34-d84c-4dad-af68-53ee359cad79",
+                "NAVIGATION_CONTENT_TERMID":"b7ea439b-8b56-43d3-94ff-51c8791f9362"
+            },
+            "SITE":{
+                "ROOT_WEB_URL":"https://eutelsatgroup.sharepoint.com/sites/MADB",
+                "SITE_TITLE":"MADB"
+            }
+        }
+    }
+}

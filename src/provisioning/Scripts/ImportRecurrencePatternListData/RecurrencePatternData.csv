@@ -1,0 +1,6 @@
+Title,Day,End Date,Frequency,Interval,Month,Weekday
+Fee1_Pattern,15,2026-12-31,Monthly,1,January,Monday
+Fee2_Pattern,1,2027-03-31,Quarterly,3,March,Tuesday
+Fee3_Pattern,30,2027-06-30,Half Annual,6,June,Wednesday
+Fee4_Pattern,31,2028-12-31,Annual,12,December,Friday
+Fee5_Pattern,10,2029-12-31,Multi Annual,24,October,Thursday

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-D34E17B4CBD54F8EA33386C9A13C812D">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-D34E17B4CBD54F8EA33386C9A13C812D" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x0100FAB3C8B22A402D4296663A098E9A9FF5" Name="MA_TeleportPartner" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" UpdateChildren="true" />
+            <pnp:FieldRef ID="51dd3ef3-b95e-48aa-8fc3-4e15b689c814" Name="MA_Market" UpdateChildren="true" />
+            <pnp:FieldRef ID="76edccf6-4dda-4d7c-8b40-df9866909158" Name="MA_Owner" UpdateChildren="true" />
+            <pnp:FieldRef ID="32160c64-800c-4c27-bde4-94d8468ccde1" Name="MA_Portal" UpdateChildren="true" />
+            <pnp:FieldRef ID="2dc3af8b-f5fe-467b-8bf5-1456356e1fbf" Name="MA_TeleportPartnerStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Teleport Partner" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/teleport_partner" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/teleport_partner/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/teleport_partner/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/teleport_partner/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100FAB3C8B22A402D4296663A098E9A9FF5" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{6E57F87C-9EB9-4DD6-950E-19B009450E38}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/teleport_partner/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="Title" />
+                </OrderBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_Summary" />
+                <FieldRef Name="MA_Address" />
+                <FieldRef Name="MA_Market" />
+                <FieldRef Name="MA_Owner" />
+                <FieldRef Name="MA_Portal" />
+                <FieldRef Name="MA_TeleportPartnerStatus" />
+                <FieldRef Name="MA_Comments" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ColumnWidth>
+                <FieldRef Name="Teleport Partner Status" width="180.72723388671875" />
+              </ColumnWidth>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="f2e523fd-7231-4829-9947-537e0d4c9174" Name="MA_Address" DisplayName="Legal Address" />
+            <pnp:FieldRef ID="32160c64-800c-4c27-bde4-94d8468ccde1" Name="MA_Portal" DisplayName="Portal" />
+            <pnp:FieldRef ID="2dc3af8b-f5fe-467b-8bf5-1456356e1fbf" Name="MA_TeleportPartnerStatus" DisplayName="Status" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+            <pnp:FieldRef ID="51dd3ef3-b95e-48aa-8fc3-4e15b689c814" Name="MA_Market" DisplayName="Market" />
+            <pnp:FieldRef ID="76edccf6-4dda-4d7c-8b40-df9866909158" Name="MA_Owner" DisplayName="Owner" />
+          </pnp:FieldRefs>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

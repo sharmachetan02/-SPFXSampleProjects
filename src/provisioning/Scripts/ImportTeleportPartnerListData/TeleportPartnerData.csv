@@ -1,0 +1,4 @@
+Title,Comments,Market,Status,Legal Address,Summary,Portal
+Teleport Partner Alpha,Regional teleport operator,"Albania; Austria",Active,"Zone Industrielle A, Paris, France",Primary partner for managed uplink services,https://example.com/alpha
+Teleport Partner Beta,Backup operations,"Belgium|Colombia|France",Inactive,"Via Roma 42, Milan, Italy",Secondary partner used for resilience scenarios,https://example.com/beta
+Teleport Partner Gamma,Former contracted partner,Indonesia,Revoked,"1 Harbour Road, London, UK",Contract ended due to compliance changes,https://example.com/gamma

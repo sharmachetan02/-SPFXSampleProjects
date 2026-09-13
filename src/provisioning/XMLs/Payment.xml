@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-678F1FB9D6404E9BB5ACC185A84459B9">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-678F1FB9D6404E9BB5ACC185A84459B9" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x0100617446125FA54D4CAA177629C85FC7CD" Name="MA_Payment" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" UpdateChildren="true" />
+            <pnp:FieldRef ID="acf07ae3-edcf-46d4-823d-92eaddd50c27" Name="MA_VatFree" UpdateChildren="true" />
+            <pnp:FieldRef ID="97bf1c7c-5b5e-427e-8da5-3140bd2cdd02" Name="MA_Vat" UpdateChildren="true" />
+            <pnp:FieldRef ID="8aefed94-8164-4f94-a218-bf4a19668448" Name="MA_VatRate" UpdateChildren="true" />
+            <pnp:FieldRef ID="dd0a1fe8-2924-41e1-b03a-e08cae63f1fb" Name="MA_FeeChargedBy" UpdateChildren="true" />
+            <pnp:FieldRef ID="967de56d-c0a6-43b3-8ca1-0df939d3b5b3" Name="MA_PaymentStatus" UpdateChildren="true" />
+            <pnp:FieldRef ID="c1e07e0c-4096-464e-abcb-48525e81320e" Name="MA_DueDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="467eaee4-fff8-4e7a-9100-7e58d8dd9872" Name="MA_PaymentDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" UpdateChildren="true" />
+            <pnp:FieldRef ID="a7dbc1a0-2bd9-4675-9bfe-1eca0a91da39" Name="MA_DocumentsSpace" Hidden="true" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Payment" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/payment" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/payment/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/payment/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/payment/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x0100617446125FA54D4CAA177629C85FC7CD" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{41E65D68-B6A2-4297-9AD2-CD7DC809DD04}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/payment/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_VatFree" />
+                <FieldRef Name="MA_Vat" />
+                <FieldRef Name="MA_VatRate" />
+                <FieldRef Name="MA_DueDate" />
+                <FieldRef Name="MA_PaymentStatus" />
+                <FieldRef Name="MA_PaymentDate" />
+                <FieldRef Name="MA_Comments" />
+                <FieldRef Name="MA_Summary" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="4a134abc-e352-4c65-94b3-15393e711fcf" Name="MA_Summary" DisplayName="Summary" />
+            <pnp:FieldRef ID="acf07ae3-edcf-46d4-823d-92eaddd50c27" Name="MA_VatFree" DisplayName="VAT Free" />
+            <pnp:FieldRef ID="97bf1c7c-5b5e-427e-8da5-3140bd2cdd02" Name="MA_Vat" DisplayName="VAT" />
+            <pnp:FieldRef ID="8aefed94-8164-4f94-a218-bf4a19668448" Name="MA_VatRate" DisplayName="VAT Rate" />
+            <pnp:FieldRef ID="dd0a1fe8-2924-41e1-b03a-e08cae63f1fb" Name="MA_FeeChargedBy" DisplayName="Charged By" />
+            <pnp:FieldRef ID="967de56d-c0a6-43b3-8ca1-0df939d3b5b3" Name="MA_PaymentStatus" DisplayName="Status" />
+            <pnp:FieldRef ID="c1e07e0c-4096-464e-abcb-48525e81320e" Name="MA_DueDate" DisplayName="Due Date" />
+            <pnp:FieldRef ID="467eaee4-fff8-4e7a-9100-7e58d8dd9872" Name="MA_PaymentDate" DisplayName="Payment Date" />
+            <pnp:FieldRef ID="2029f347-b74c-427b-adbb-dcd336238ac3" Name="MA_Comments" DisplayName="Comments" />
+          </pnp:FieldRefs>          
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

@@ -1,0 +1,435 @@
+﻿{
+    "TermGroup":  "Market Access",
+    "TermSet":  "Country Grouping",
+    "Terms":  [
+                  {
+                      "Id":  "64d01393-7a45-4428-bac9-7b0407bc6f15",
+                      "Name":  "AOP Regions",
+                      "PathOfTerm":  "AOP Regions",
+                      "IsAvailableForTagging":  false,
+                      "LocalCustomProperties":  {
+                                                    "ParentId":  "03cbec8b-e3b0-44b4-976f-f7c24d090a4c"
+                                                },
+                      "Children":  [
+                                       {
+                                           "Id":  "4d6a79dd-a4c4-46fa-a2a8-b206bf3e33c9",
+                                           "Name":  "Africa",
+                                           "PathOfTerm":  "AOP Regions;Africa",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "6d37ae09-df1c-4190-a022-0753c8fec01d",
+                                           "Name":  "Alaska",
+                                           "PathOfTerm":  "AOP Regions;Alaska",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "db11f7b2-5509-40fb-94bb-2ce5bc8fb6a6",
+                                           "Name":  "Australia / Nz",
+                                           "PathOfTerm":  "AOP Regions;Australia / Nz",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "f7e61954-b2ba-4234-a9cf-9ce9402a9549",
+                                           "Name":  "Canada",
+                                           "PathOfTerm":  "AOP Regions;Canada",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "4bff8b0d-2910-4f67-98bf-dd2eaae24900",
+                                           "Name":  "Caribbean",
+                                           "PathOfTerm":  "AOP Regions;Caribbean",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "5523ce54-33f3-4eed-b67d-772e24df8334",
+                                           "Name":  "Central Asia",
+                                           "PathOfTerm":  "AOP Regions;Central Asia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "325c4de0-140e-47b5-9fc2-b1a9747046f0",
+                                           "Name":  "Conus",
+                                           "PathOfTerm":  "AOP Regions;Conus",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "2c083916-1953-4b59-8676-7e0d0c6d54bf",
+                                           "Name":  "East Asia",
+                                           "PathOfTerm":  "AOP Regions;East Asia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "57fab470-20f7-41ea-884f-a2457f2e4da4",
+                                           "Name":  "Europe",
+                                           "PathOfTerm":  "AOP Regions;Europe",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "2b1c418f-3c77-4c43-a376-72f6ba61c29e",
+                                           "Name":  "Latin America",
+                                           "PathOfTerm":  "AOP Regions;Latin America",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "b8698573-33cc-4e13-8ac4-a113b8f59db4",
+                                           "Name":  "Neom Jv Region",
+                                           "PathOfTerm":  "AOP Regions;Neom Jv Region",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "04b851bb-b4b9-43c9-88e4-bfcf5e6614e6",
+                                           "Name":  "Not in AOP",
+                                           "PathOfTerm":  "AOP Regions;Not in AOP",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "a90b3aae-c274-4265-b0e3-1f45f5d71818",
+                                           "Name":  "Oceania",
+                                           "PathOfTerm":  "AOP Regions;Oceania",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "42604864-875d-47dc-80ac-3418850e3fc4",
+                                           "Name":  "Other Middle East",
+                                           "PathOfTerm":  "AOP Regions;Other Middle East",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "9534c74d-93eb-4225-877c-49fbd1b3b25c",
+                                           "Name":  "South Asia",
+                                           "PathOfTerm":  "AOP Regions;South Asia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "1266c9cb-0fed-4971-a13d-6eef71a7f7ba",
+                                           "Name":  "Southeast Asia",
+                                           "PathOfTerm":  "AOP Regions;Southeast Asia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "64d01393-7a45-4428-bac9-7b0407bc6f15"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       }
+                                   ]
+                  },
+                  {
+                      "Id":  "749c77c2-6a5a-42b1-8239-6726ae65977c",
+                      "Name":  "GEO Regions",
+                      "PathOfTerm":  "GEO Regions",
+                      "IsAvailableForTagging":  false,
+                      "LocalCustomProperties":  {
+                                                    "ParentId":  "03cbec8b-e3b0-44b4-976f-f7c24d090a4c"
+                                                },
+                      "Children":  [
+                                       {
+                                           "Id":  "a3163e16-c28d-41a9-8ab9-a26fedba202f",
+                                           "Name":  "APAC",
+                                           "PathOfTerm":  "GEO Regions;APAC",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "124a7c72-8e5d-476b-b608-20b7676a8975",
+                                           "Name":  "Caribbean",
+                                           "PathOfTerm":  "GEO Regions;Caribbean",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "3fcb53e8-2e65-4bad-9bc6-d7539f9bfca5",
+                                           "Name":  "Central Asia",
+                                           "PathOfTerm":  "GEO Regions;Central Asia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "14a59bc8-7fec-453d-85a9-10d3aa959118",
+                                           "Name":  "CIS / Eurasia",
+                                           "PathOfTerm":  "GEO Regions;CIS / Eurasia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "a24741b5-378f-42f4-b271-d7092b7c218a",
+                                           "Name":  "East Asia",
+                                           "PathOfTerm":  "GEO Regions;East Asia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "bfaabf06-62aa-474f-b7fc-b88a36936bac",
+                                           "Name":  "Europe",
+                                           "PathOfTerm":  "GEO Regions;Europe",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "f2af42eb-7e77-42e8-a299-80146f22301f",
+                                           "Name":  "Latin America",
+                                           "PathOfTerm":  "GEO Regions;Latin America",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "8acc36ec-2d60-4d4f-85f8-5e2ba97b3f87",
+                                           "Name":  "Middle East",
+                                           "PathOfTerm":  "GEO Regions;Middle East",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "ee3150a6-fbab-4720-9462-5a02966c103b",
+                                           "Name":  "North Africa",
+                                           "PathOfTerm":  "GEO Regions;North Africa",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "31d7e461-2abf-4749-9d93-79baeca71055",
+                                           "Name":  "North America",
+                                           "PathOfTerm":  "GEO Regions;North America",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "669426b1-c420-40dc-9a5f-90a2c8fae25b",
+                                           "Name":  "South Asia",
+                                           "PathOfTerm":  "GEO Regions;South Asia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "9da0753c-6128-4592-aef6-fd82775a4448",
+                                           "Name":  "Southeast Asia",
+                                           "PathOfTerm":  "GEO Regions;Southeast Asia",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "7daf4c11-7e99-4520-a6ff-ccd7a3523123",
+                                           "Name":  "Sub-Saharan Africa",
+                                           "PathOfTerm":  "GEO Regions;Sub-Saharan Africa",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "749c77c2-6a5a-42b1-8239-6726ae65977c"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       }
+                                   ]
+                  },
+                  {
+                      "Id":  "a8892d85-44af-4272-8c76-edf15f8f9608",
+                      "Name":  "Global Regions",
+                      "PathOfTerm":  "Global Regions",
+                      "IsAvailableForTagging":  false,
+                      "LocalCustomProperties":  {
+                                                    "ParentId":  "03cbec8b-e3b0-44b4-976f-f7c24d090a4c"
+                                                },
+                      "Children":  [
+                                       {
+                                           "Id":  "56ed6031-bd86-49a3-a02e-3a360edb968a",
+                                           "Name":  "APAC",
+                                           "PathOfTerm":  "Global Regions;APAC",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "a8892d85-44af-4272-8c76-edf15f8f9608"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "cbf81389-26df-4117-9e45-d2335e6ec97a",
+                                           "Name":  "EMEA",
+                                           "PathOfTerm":  "Global Regions;EMEA",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "a8892d85-44af-4272-8c76-edf15f8f9608"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "d85586a0-791d-4f61-afa2-546bb19f18f5",
+                                           "Name":  "LATAM",
+                                           "PathOfTerm":  "Global Regions;LATAM",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "a8892d85-44af-4272-8c76-edf15f8f9608"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       },
+                                       {
+                                           "Id":  "bc228eb0-23c4-44f7-b9ab-5acb77f9646f",
+                                           "Name":  "NA",
+                                           "PathOfTerm":  "Global Regions;NA",
+                                           "IsAvailableForTagging":  true,
+                                           "LocalCustomProperties":  {
+                                                                         "ParentId":  "a8892d85-44af-4272-8c76-edf15f8f9608"
+                                                                     },
+                                           "Children":  [
+
+                                                        ]
+                                       }
+                                   ]
+                  }
+              ]
+}

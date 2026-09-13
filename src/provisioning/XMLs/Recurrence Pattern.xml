@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-63137B1F976C4FC19B66F126C283BA1F">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-63137B1F976C4FC19B66F126C283BA1F" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x01003C15960223CC59478A7EF2462B55A50D" Name="MA_RecurrencePattern" Description="" Group="Market Access" NewFormUrl="" EditFormUrl="" DisplayFormUrl="">
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" UpdateChildren="true" />
+            <pnp:FieldRef ID="cc1a0500-1bb3-43cc-ad84-e0526caeca0a" Name="MA_RecurrenceDay" UpdateChildren="true" />
+            <pnp:FieldRef ID="1d77345a-27a7-4a6e-820e-8495bcc0f22d" Name="MA_RecurrenceInterval" UpdateChildren="true" />
+            <pnp:FieldRef ID="e03e0762-1921-4cdd-b41b-2b45487d024a" Name="MA_RecurrenceEndDate" UpdateChildren="true" />
+            <pnp:FieldRef ID="78ba30b4-f070-4278-b053-95ed5e56f37c" Name="MA_RecurrenceMonth" UpdateChildren="true" />
+            <pnp:FieldRef ID="91bc2109-a27d-42ef-8c66-933e7a29cbd8" Name="MA_RecurrenceWeekDay" UpdateChildren="true" />
+            <pnp:FieldRef ID="e53de349-28a4-4341-add7-d311a7e1ba84" Name="MA_RecurrenceFrequency" UpdateChildren="true" />
+          </pnp:FieldRefs>
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="Recurrence Pattern" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/recurrence_pattern" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/recurrence_pattern/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/recurrence_pattern/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/recurrence_pattern/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01003C15960223CC59478A7EF2462B55A50D" Default="true" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{218422FA-5057-423C-8085-8327AD132D10}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Lists/recurrence_pattern/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="MA_RecurrenceFrequency" />
+                <FieldRef Name="MA_RecurrenceWeekDay" />
+                <FieldRef Name="MA_RecurrenceMonth" />
+                <FieldRef Name="MA_RecurrenceDay" />
+                <FieldRef Name="MA_RecurrenceInterval" />
+                <FieldRef Name="MA_RecurrenceEndDate" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <Aggregations Value="Off" />
+              <JSLink>clienttemplates.js</JSLink>
+              <ViewData />
+            </View>
+          </pnp:Views>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="cc1a0500-1bb3-43cc-ad84-e0526caeca0a" Name="MA_RecurrenceDay" DisplayName="Day" />
+            <pnp:FieldRef ID="1d77345a-27a7-4a6e-820e-8495bcc0f22d" Name="MA_RecurrenceInterval" DisplayName="Interval" />
+            <pnp:FieldRef ID="e03e0762-1921-4cdd-b41b-2b45487d024a" Name="MA_RecurrenceEndDate" DisplayName="End Date" />
+            <pnp:FieldRef ID="78ba30b4-f070-4278-b053-95ed5e56f37c" Name="MA_RecurrenceMonth" DisplayName="Month" />
+            <pnp:FieldRef ID="91bc2109-a27d-42ef-8c66-933e7a29cbd8" Name="MA_RecurrenceWeekDay" DisplayName="Weekday" />
+            <pnp:FieldRef ID="e53de349-28a4-4341-add7-d311a7e1ba84" Name="MA_RecurrenceFrequency" DisplayName="Frequency" />
+          </pnp:FieldRefs>          
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
