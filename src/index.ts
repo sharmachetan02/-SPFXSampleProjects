@@ -4,3 +4,5 @@
 
 // test for git commit resolve conflict test
 // test for git commit 2
+
+// test for git commit 3
